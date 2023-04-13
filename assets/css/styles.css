@@ -1,3 +1,34 @@
 body {
     margin: 0px;
 }
+
+h1, h2 {
+    color: #C66918;
+}
+
+#homepage-block{
+    display:flex;
+    flex-direction:column;
+    align-content:flex-end;
+    text-align: center;
+    background-color: #FCF0E1;
+    margin: 5em;
+    padding: 2em;
+}
+
+#homepage-h2{
+    background-color: #FFF9F2;
+    margin: 2em;
+    padding:.1em;
+}
+
+#homepage-block button {
+    background-color: #064885;
+    border: none;
+    border-radius: 32px;
+    padding: 1em;
+    max-width:200px ;
+}
+#homepage-block button p{
+    color:white;
+}
