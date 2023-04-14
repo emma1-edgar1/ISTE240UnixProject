@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+h1 {
+    font-size: 3em;
+}
+
 h1, h2 {
     color: #C66918;
 }
@@ -19,16 +23,68 @@ h1, h2 {
 #homepage-h2{
     background-color: #FFF9F2;
     margin: 2em;
-    padding:.1em;
+    padding:1em;
 }
 
 #homepage-block button {
+    /* background color */
     background-color: #064885;
+    /* text color */
+    color: white;
     border: none;
     border-radius: 32px;
     padding: 1em;
-    max-width:200px ;
+    max-width: 200px;
+    font-size: 1em;
+    
 }
-#homepage-block button p{
-    color:white;
+
+
+
+/* menu nav bar formatting */
+
+/* targets all unordered lists */
+.menu ul {
+    display:flex;
+    margin:0;
+    padding:0;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #4286c5;
+    box-shadow: 3px 0 3px black;
+}
+
+/* targets all list items in the class */
+.menu li {
+    padding: 10px;
+    font-size: 20px;
+}
+.menu li:hover {
+    background-color: #064885;
+}
+
+/* specifically targets the submenu gruops in the menu class */
+.menu .submenu {
+    display: block;
+    position:absolute;
+    top: 43px;
+    /* left: 10px; */
+    background-color: #064885;
+}
+
+/* targets list items in the submenus, important for colors appearance */
+.menu li .submenu {
+    display:none;
+    transition: 1s opacity;
+}
+
+/* targets all the links in the menu and submenu classes */
+.menu a, .submenu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li:hover .submenu {
+    display: block;
+    opacity: 100%;
 }
