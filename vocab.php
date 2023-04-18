@@ -4,8 +4,6 @@
     include($path . "assets/inc/header.php");
 ?>
 
-
-    <div class="content-block">
         <h1>Vocab Index</h1>
         <div class="vocab-panel">
             <h2>ls</h2>
@@ -20,7 +18,6 @@
             <h2 class="greyout-h2">ls</h2><h2>-a</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam sunt veritatis, mollitia distinctio ut</p>
         </div>
-    </div>
 
 <?php
     include($path . "assets/inc/footer.php");

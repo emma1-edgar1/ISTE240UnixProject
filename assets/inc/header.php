@@ -41,3 +41,5 @@
             <li><a href="faq.php">FAQ/Help</a></li>
         </uL>  <!--all menu items enclosed in here-->
     </div> <!--dropdown div end-->
+
+    <div class="content-block">
