@@ -4,7 +4,7 @@
     include($path . "assets/inc/header.php");
 ?>
 <div>
-    <h1>Vocab Index</h1>
+    <h1>History</h1>
     <p>The Unix operating system was created shortly after the Multiplexed Information and Computing Service (MULTICS) was. The MULTICS project which started in the mid 1960s, was worked on by General Electric, Massachusetts Institute for Technology, and Bell Laboratories. Ultimately, Bell Laboratories left the project in 1969.</p>
     <p>UNIX, a multi user computer operating system, was developed in the late 1960s by a team of computer scientists at AT&T Corporation’s Bell Laboratories. In 1969, computer scientists Ken Thompson and Dennis Ritchie, who wrote the first C compiler, led the team that created the first version of UNIX on a PDP-7 minicomputer. The PDP-7 minicomputer was chosen primarily due to Thompson being familiar with the system since working on it was a hobby of his.</p>
     <p>Thompson had liked the potential of MULTICS, but felt that the same thing could essentially be done in a much simpler way. He wrote Unix’s first version in 1969, and named it Uniplexed Operating and Computing System (UNICS). The name ultimately stuck and eventually got shortened to Unix. By the late 1970s, after the initial creation of UNIX, the team adapted it for another computer and they ported it to the PDP-11. This was the first of what would eventually be many ports of UNIX.</p>
