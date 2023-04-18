@@ -36,8 +36,10 @@ h1, h2 {
     border: none;
     border-radius: 32px;
     padding: 1em;
+    min-width: 150px;
     max-width: 200px;
     font-size: 1em;
+    margin: auto;
     
 }
 
