@@ -1,5 +1,5 @@
 <?php
-    $title = "UNIX Survival Guide by the Pina Koalas - ISTE240";
+    $title = "Vocab - UNIX Survival Guide by the Pina Koalas - ISTE240";
     $path = "./";
     include($path . "assets/inc/header.php");
 ?>
@@ -21,6 +21,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam sunt veritatis, mollitia distinctio ut</p>
         </div>
     </div>
-</div> 
-</body>
-</html>
+
+<?php
+    include($path . "assets/inc/footer.php");
+?>

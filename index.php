@@ -11,7 +11,6 @@
         <div id="homepage-h2"><h2>Know what you're looking for? Check out the topics at the top of the page.</h2></div>
     </div>
 
-
-</div>
-</body>
-</html>
+<?php
+    include($path . "assets/inc/footer.php");
+?>
