@@ -13,6 +13,118 @@
     <p>After Thompson left Bell Laboratories, he taught a UNIX course in the mid-1970s at the University of California at Berkeley. This allowed for students and professors to further enhance UNIX, which led to a version of UNIX called Berkeley Software Distribution (BSD) being created. This allowed many people to work on and develop the source code  and led to the creation of C shell, the vi editor, Sendmail, virtual memory, and TCP/IP support.</p>
     <p>Since AT&T continued to work on UNIX, they released a new version of UNIX called System V in 1983. Other companies such as Sun Microsystems, Inc., and Silicon Graphics, Inc., also created UNIX versions as well as continued to develop UNIX which allowed for it to stay relevant. Since UNIX was incredibly successful, it was used as the inspiration for many free open-source operating systems, including Linux, which has mostly replaced UNIX in recent years.</p>
 </div>
+
+<h1>Quiz Yourself!</h1>
+<h2>Want to test your knowledge? Take the quiz!</h2>
+
+<div class="flex-container">
+  <div>
+    <fieldset>
+    <legend>What does MULTICS stand for?</legend>
+        <div>
+            <input type="radio" id="historyq1a" name="multics" value="historyq1a">
+            <label for="historyq1a">Multiplexed Informational and Computing System</label>
+        </div>
+
+        <div>
+            <!-- Correct Answer -->
+            <input type="radio" id="historyq1b" name="multics" value="historyq1b">
+            <label for="historyq1b">Multiplexed Information and Computing Service</label>
+        </div>
+
+        <div>
+            <input type="radio" id="historyq1c" name="multics" value="historyq1c">
+            <label for="historyq1c">Multiplex Information and Computer Service</label>
+        </div>
+
+        <div>
+            <input type="radio" id="historyq1d" name="multics" value="historyq1d">
+            <label for="historyq1d">Multiplex Informational and Computing System</label>
+        </div>
+        <input class="submit" type="submit" value="Check answer!">
+    </fieldset>
+  </div>
+
+  <div>
+    <fieldset>
+    <legend>UNIX was developed in the late 1980s by a team of computer scientists:</legend>
+        <div>
+            <input type="radio" id="historyq2a" name="dev" value="historyq2a">
+            <label for="historyq2a">True</label>
+        </div>
+
+        <div>
+            <!-- Correct Answer -->
+            <input type="radio" id="historyq2b" name="dev" value="historyq2b">
+            <label for="historyq2b">False</label>
+        </div>
+        <input class="submit" type="submit" value="Check answer!">
+    </fieldset>
+  </div>
+
+  <div>
+    <fieldset>
+    <legend>Who led the team that created UNIX?</legend>
+        <div>
+            <input type="radio" id="historyq3a" name="team" value="historyq3a">
+            <label for="historyq3a">Ken Thomas and Dennis Richard</label>
+        </div>
+
+        <div>
+            <input type="radio" id="historyq3b" name="team" value="historyq3b">
+            <label for="historyq2b">Ken Richard and Dennis Thomas</label>
+        </div>
+
+        <div>
+            <!-- Correct Answer -->
+            <input type="radio" id="historyq3c" name="team" value="historyq3c">
+            <label for="historyq3c">Ken Thompson and Dennis Ritchie</label>
+        </div>
+
+        <div>
+            <input type="radio" id="historyq3d" name="team" value="historyq3d">
+            <label for="historyq3d">Ken Ritchie and Dennis Thompson</label>
+        </div>
+        <input class="submit" type="submit" value="Check answer!">
+    </fieldset>
+  </div>  
+
+  <div>
+  <fieldset>
+    <legend>UNIX has a hierarchical file system:</legend>
+        <div>
+            <!-- Correct Answer -->
+            <input type="radio" id="historyq4a" name="hierarchy" value="historyq4a">
+            <label for="historyq4a">True</label>
+        </div>
+
+        <div>
+            <input type="radio" id="historyq4b" name="hierarchy" value="historyq4b">
+            <label for="historyq4b">False</label>
+        </div>
+        <input class="submit" type="submit" value="Check answer!">
+    </fieldset>
+  </div>
+
+  <div>
+  <fieldset>
+    <legend>Unix is an operating system that is not flexible:</legend>
+        <div>
+            <input type="radio" id="historyq5a" name="flexible" value="historyq5a">
+            <label for="historyq5a">True</label>
+        </div>
+
+        <div>
+            <!-- Correct Answer -->
+            <input type="radio" id="historyq5b" name="flexible" value="historyq5b">
+            <label for="historyq5b">False</label>
+        </div>
+        <input class="submit" type="submit" value="Check answer!">
+    </fieldset>
+  </div>
+
+</div>
+
 <?php
     include($path . "assets/inc/footer.php");
 ?>
