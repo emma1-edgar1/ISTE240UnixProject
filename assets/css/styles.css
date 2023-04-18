@@ -88,3 +88,25 @@ h1, h2 {
     display: block;
     opacity: 100%;
 }
+
+
+.content-block {
+    display:flex;
+    flex-direction:column;
+    align-content:flex-end;
+    text-align: center;
+    background-color: #FCF0E1;
+    margin: 5em;
+    padding: 2em;
+}
+
+.vocab-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+.greyout-h2{
+    color: rgba(128, 128, 128, 0.682);
+}
