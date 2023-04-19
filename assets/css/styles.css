@@ -121,3 +121,22 @@ h3 {
 .greyout-h2{
     color: rgba(128, 128, 128, 0.682);
 }
+
+/*This targets the history page's quiz questions. */
+
+/*Having issues with getting this to work, I think the issue 
+is that flex and fieldset might not be able to work together.*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFF9F2;
+  }
+
+/*This targets the history page's quiz questions. */
+.flex-container > div {
+    background-color: #FCF0E1;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    font-size:14px;
+  }
