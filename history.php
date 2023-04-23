@@ -19,8 +19,8 @@
 
 <div class="flex-container">
   <div>
-    <fieldset>
-    <legend>What does MULTICS stand for?</legend>
+    <form>
+    <p>What does MULTICS stand for?</p>
         <div>
             <input type="radio" id="historyq1a" name="multics" value="historyq1a">
             <label for="historyq1a">Multiplexed Informational and Computing System</label>
@@ -42,12 +42,12 @@
             <label for="historyq1d">Multiplex Informational and Computing System</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
-    </fieldset>
+    </form>
   </div>
 
   <div>
-    <fieldset>
-    <legend>UNIX was developed in the late 1980s by a team of computer scientists:</legend>
+    <form>
+    <p>UNIX was developed in the late 1980s by a team of computer scientists:</p>
         <div>
             <input type="radio" id="historyq2a" name="dev" value="historyq2a">
             <label for="historyq2a">True</label>
@@ -59,12 +59,12 @@
             <label for="historyq2b">False</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
-    </fieldset>
+    </form>
   </div>
 
   <div>
-    <fieldset>
-    <legend>Who led the team that created UNIX?</legend>
+    <form>
+    <p>Who led the team that created UNIX?</p>
         <div>
             <input type="radio" id="historyq3a" name="team" value="historyq3a">
             <label for="historyq3a">Ken Thomas and Dennis Richard</label>
@@ -86,12 +86,12 @@
             <label for="historyq3d">Ken Ritchie and Dennis Thompson</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
-    </fieldset>
+    </form>
   </div>  
 
   <div>
-  <fieldset>
-    <legend>UNIX has a hierarchical file system:</legend>
+  <form>
+    <p>UNIX has a hierarchical file system:</p>
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="historyq4a" name="hierarchy" value="historyq4a">
@@ -103,12 +103,12 @@
             <label for="historyq4b">False</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
-    </fieldset>
+    </form>
   </div>
 
   <div>
-  <fieldset>
-    <legend>Unix is an operating system that is not flexible:</legend>
+  <form>
+    <p>Unix is an operating system that is not flexible:</p>
         <div>
             <input type="radio" id="historyq5a" name="flexible" value="historyq5a">
             <label for="historyq5a">True</label>
@@ -120,7 +120,7 @@
             <label for="historyq5b">False</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
-    </fieldset>
+    </form>
   </div>
 
 </div>
