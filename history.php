@@ -20,7 +20,7 @@
 <div class="flex-container">
   <div>
     <form>
-    <p>What does MULTICS stand for?</p>
+    <h4>What does MULTICS stand for?</h4>
         <div>
             <input type="radio" id="historyq1a" name="multics" value="historyq1a">
             <label for="historyq1a">Multiplexed Informational and Computing System</label>
@@ -47,7 +47,7 @@
 
   <div>
     <form>
-    <p>UNIX was developed in the late 1980s by a team of computer scientists:</p>
+    <h4>UNIX was developed in the late 1980s by a team of computer scientists:</h4>
         <div>
             <input type="radio" id="historyq2a" name="dev" value="historyq2a">
             <label for="historyq2a">True</label>
@@ -64,7 +64,7 @@
 
   <div>
     <form>
-    <p>Who led the team that created UNIX?</p>
+    <h4>Who led the team that created UNIX?</h4>
         <div>
             <input type="radio" id="historyq3a" name="team" value="historyq3a">
             <label for="historyq3a">Ken Thomas and Dennis Richard</label>
@@ -91,7 +91,7 @@
 
   <div>
   <form>
-    <p>UNIX has a hierarchical file system:</p>
+    <h4>UNIX has a hierarchical file system:</h4>
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="historyq4a" name="hierarchy" value="historyq4a">
@@ -108,7 +108,7 @@
 
   <div>
   <form>
-    <p>Unix is an operating system that is not flexible:</p>
+    <h4>Unix is an operating system that is not flexible:</h4>
         <div>
             <input type="radio" id="historyq5a" name="flexible" value="historyq5a">
             <label for="historyq5a">True</label>
