@@ -9,7 +9,7 @@ h1 {
     font-size: 3em;
 }
 
-h1, h2 {
+h1, h2, h4 {
     color: #C66918;
     font-weight: bold;
 }
@@ -17,6 +17,15 @@ h1, h2 {
 h3 {
     font-weight: bold;
     font-style: italic;
+}
+
+h4, label{
+    font-size: 18px;
+}
+
+/* Adjusts margin */
+h4 {
+    margin-top: 0px;
 }
 
 #homepage-block{
@@ -123,20 +132,43 @@ h3 {
 }
 
 /*This targets the history page's quiz questions. */
-
-/*Having issues with getting this to work, I think the issue 
-is that flex and fieldset might not be able to work together.*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: #FFF9F2;
+    /* background-color: #FFF9F2; */
+    border-radius: 20px;
+    justify-content: center;
   }
 
 /*This targets the history page's quiz questions. */
 .flex-container > div {
-    background-color: #FCF0E1;
-    width: 300px;
+    background-color: #E9DDCF;
+    width: 350px;
     margin: 10px;
     padding: 20px;
     font-size:14px;
+    line-height: 2em;
+    border-radius: 20px;
   }
+
+/* Targets the content paragraphs */
+p{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 30px;
+    line-height: 2em;
+}
+
+/* Targets the quiz questions */
+form{
+    text-align: left;
+}
+
+/* Formats quiz buttons */
+.submit {
+    margin-top: 10px;
+    padding: 7px;
+    background-color: #DA8D4A;
+    border-radius: 10px;
+    font-size: 16px;
+}
