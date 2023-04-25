@@ -181,3 +181,41 @@ form{
     border-radius: 10px;
     font-size: 16px;
 }
+
+/* Attempting to fix dropdown menu files and folders */
+.dropdown{
+    display: block;
+	position: relative;
+	float: left;
+    padding: 12px;
+    font-size: 14px;
+    min-width: 115px;
+    border: none;
+    text-align: center;
+}
+
+.submenu {
+	display: none;
+}
+
+.dropdown li {
+	line-height: 30px;
+	width: 100%;
+    max-width: 115px;
+    padding: 8px;
+}
+
+.expand {
+	font-size: 14px;
+	float: right;
+	margin-right: 25px;
+}
+
+.submenu:hover>ul{
+	display: block;
+	position: absolute;
+    margin-top: 12px;
+    min-width: 130px;
+    font-size: 14px;
+    text-align: center;
+}

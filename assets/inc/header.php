@@ -14,26 +14,27 @@
 <div id="wrapper">
 
     <div class="menu">
-        <uL>
+        <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="history.php">History</a></li>
     
-            <li><a href="#">Files and Folders</a>
+            <li class="dropdown"><a href="#">Files and Folders</a>
                 <ul class="submenu">
-                    <li><a href="#">Files</a>
-                        <!-- <ul class="submenu">
+                    <li class="dropdown"><a href="#">Files<span class="expand">»</span></a>
+                        <ul class="submenu">
                             <li><a href=#>File page 1</a></li>
                             <li><a href=#>File page 2</a></li>
                             <li><a href=#>File page 3</a></li>
-                        </ul> -->
+                        </ul>
                     </li>
+            
                     <li><a href="#">Folders</a>
-                        <!-- <ul class="submenu">
+                        <ul class="submenu">
                             <li><a href=#>What Are Directories?</a></li>
                             <li><a href=#>Making/Removing</a></li>
                             <li><a href=#>editing</a></li>
                             <li><a href=#>Moving</a></li>
-                        </ul> -->
+                        </ul>
                     </li>
                 </ul>
             </li> <!--end of files and filders li-->
