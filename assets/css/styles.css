@@ -120,13 +120,22 @@ h4 {
     padding: 2em;
 }
 
+
+/* vocab page formatting */
 .vocab-panel {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: stretch;
+    text-align: center;
 }
-
+#vocab-grid{
+    display: grid;
+    grid-template: auto / 250px auto;
+}
+.compound-vocab-h2 {
+    display: flex;
+}
 .greyout-h2{
     color: rgba(128, 128, 128, 0.682);
 }
