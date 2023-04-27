@@ -20,7 +20,7 @@
     
             <li class="dropdown"><a href="#">Files and Folders</a>
                 <ul class="submenu">
-                    <li class="dropdown"><a href="#">Files<span class="expand">»</span></a>
+                    <li class="dropdown"><a href="files.php">Files<span class="expand">»</span></a>
                         <ul class="submenu">
                             <li><a href=#>File page 1</a></li>
                             <li><a href=#>File page 2</a></li>
@@ -30,7 +30,7 @@
             
                     <li><a href="#">Folders</a>
                         <ul class="submenu">
-                            <li><a href=#>What Are Directories?</a></li>
+                            <li><a href="directories.php">What Are Directories?</a></li>
                             <li><a href=#>Making/Removing</a></li>
                             <li><a href=#>editing</a></li>
                             <li><a href=#>Moving</a></li>
