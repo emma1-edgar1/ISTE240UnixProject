@@ -162,7 +162,7 @@ h4 {
   }
 
 /* Targets the content paragraphs */
-p, .directorylist li{
+p, .formatlist li{
     font-size: 20px;
     text-align: left;
     padding-top: 30px;
