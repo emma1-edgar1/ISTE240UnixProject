@@ -30,6 +30,8 @@
                     </li>
             
                     <li><a href="directories.php">Folders</a>
+                    <li><a href="terminal.php">Terminal</a>
+                    <li><a href="vim.php">VIM</a>
                         <!-- <ul class="submenu">
                             <li><a href=#>What Are Directories?</a></li>
                             <li><a href=#>Making/Removing</a></li>
