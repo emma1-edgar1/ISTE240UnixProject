@@ -7,7 +7,10 @@
 
     <div id="homepage-block">
         <h1>Ready to Learn Unix?</h1>
-        <button>Get Started!</button>
+        <a href="history.php">
+            <button class="hoverbutton">Get Started!</button>
+        </a>
+        
         <div id="homepage-h2"><h2>Know what you're looking for? Check out the topics at the top of the page.</h2></div>
     </div>
 
