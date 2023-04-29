@@ -8,13 +8,13 @@
     <h1>Permissions</h1>
     <p>UNIX commands allow you to set permissions for every file which allows you to control who can read, write, or view a file on a Web page. You are automatically the owner of files you create so unless you give permission for others to edit or change a file, they are unable to do so.</p>
     <h2>The three actions you can perform a file:</h2>
-    <ul>
+    <ul class="formatlist">
         <li>read (view the file)</li>
         <li>write (create, edit or delete)</li>
         <li>execute (run a script/program or enter a directory)</li>
     </ul>    
     <p>-- Below is a UNIX string of information that shows an example of what permissions for a file look like:</br>-rwxr-xr-x</br></p>
-    <ul>
+    <ul class="formatlist">
         <li>The first three positions after the "-" are the owner's permissions. The “r” indicates the owner is able to read the file, the “w” indicates the owner can write the file, and the “x” indicates that the owner is able to execute the file.</li>
         <li>The next three positions are the group permissions. In the example above, the group members can read and execute it, but not write to it.</li>
         <li>The last three positions are for everyone else. In order for your Web pages to be viewed using a browser, you need to ensure that this permission is  set to "read."</li>

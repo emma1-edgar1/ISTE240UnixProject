@@ -12,7 +12,7 @@
     <p>The rmdir command is used to remove a directory instead of a file. It is very important that you make sure that the directory is empty first, as Unix will not let a directory that still has files in it to be removed. For example:</br> mkdir mydirectory</br> ls</br> rmdir mydirectory</br> ls</br></p>
     <h2>Root Directory:</h2>
     <p>UNIX directory names start with a forward slash (/). For example, a pathname that consists of 4 directories could look like this: /users/bob/classes/math.
-    <ul class="directorylist">
+    <ul class="formatlist">
         <li>The root directory is only a forward slash (/)</li>
         <li>The directory you are in currently is represented by “.”</li>
         <li>Your home directory is represented by a tilde (~)</li>
