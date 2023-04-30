@@ -13,6 +13,7 @@ h1 {
 h1, h2, h4 {
     color: #C66918;
     font-weight: bold;
+    text-align: center;
 }
 
 h3 {
@@ -35,7 +36,6 @@ h4 {
     align-content:flex-end;
     text-align: center;
     background-color: #FCF0E1;
-    margin: 5em;
     padding: 2em;
 }
 
@@ -118,14 +118,23 @@ h4 {
     display:flex;
     flex-direction:column;
     align-content:flex-end;
-    text-align: center;
+    /*text-align: center;*/
     background-color: #FCF0E1;
-    margin: 5em;
+    width: 80%;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
     padding: 2em;
+    padding-bottom: 80px;
+}
+
+.textBlock {
+    width: 80%;
+    margin: auto;
 }
 
 
-/* vocab page formatting */
+/* OLD vocab page formatting */
 .vocab-panel {
     display: flex;
     flex-direction: row;
@@ -223,3 +232,49 @@ form{
     font-size: 14px;
     text-align: center;
 }
+
+/* vocab page */
+
+.vocabBox{
+    display: grid;
+    grid-template: 1fr 1fr;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.vocabBox .term{
+    grid-column: 1 / 2;
+}
+
+.vocabBox .description{
+    grid-column: 2 / 3;
+}
+
+.sortFormBox {
+
+}
+
+.sortFormBox fieldset {
+    border: 0;
+    display: inline-block;
+}
+
+.sortFormBox form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sortFormBox input[type=text] {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: #E9DDCF;
+    width: 180px;
+    font-size: 16px;
+}
+
+.sortFormBox input[type=submit]{
+    font-size: 16px;
+}
+
+/* end vocab page styles */
