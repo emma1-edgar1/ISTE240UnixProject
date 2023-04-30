@@ -104,8 +104,10 @@
             }
             else{
                 foreach($records as $record){
+                    echo "<div class = 'termBox'";
                     echo "<div class='term'>" . $record['term'] . "</div>";
                     echo "<div class='description'>" . $record['description'] . "</div>";
+                    echo "</div>";
                 }
             }
         ?>
