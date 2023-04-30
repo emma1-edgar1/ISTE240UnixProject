@@ -7,13 +7,14 @@ body {
 }
 
 h1 {
+    color: #5BA2E4;
     font-size: 3em;
-}
-
-h1, h2, h4 {
-    color: #C66918;
     font-weight: bold;
     text-align: center;
+}
+
+h2, h4 {
+    color: #C66918;
 }
 
 h3 {
@@ -47,17 +48,22 @@ h4 {
 
 #homepage-block button {
     /* background color */
-    background-color: #064885;
+    background-color: #5BA2E4;
     /* text color */
-    color: white;
+    color: #021A31;
     border: none;
-    border-radius: 32px;
+    border-radius: 10px;
     padding: 1em;
     min-width: 150px;
     max-width: 200px;
     font-size: 1em;
     margin: auto;
     
+}
+
+#homepage-block button:hover{
+    background-color: #064885;
+    color: white;
 }
 
 /* Button works, but there is an issue where you can also click next to button and it still works. */
@@ -198,8 +204,8 @@ form{
 /* Attempting to fix dropdown menu files and folders */
 .dropdown{
     display: block;
-	position: relative;
-	float: left;
+    position: relative;
+    float: left;
     padding: 12px;
     font-size: 14px;
     min-width: 115px;
@@ -208,25 +214,25 @@ form{
 }
 
 .submenu {
-	display: none;
+    display: none;
 }
 
 .dropdown li {
-	line-height: 30px;
-	width: 100%;
+    line-height: 30px;
+    width: 100%;
     max-width: 115px;
     padding: 8px;
 }
 
 .expand {
-	font-size: 14px;
-	float: right;
-	margin-right: 25px;
+    font-size: 14px;
+    float: right;
+    margin-right: 25px;
 }
 
 .submenu:hover>ul{
-	display: block;
-	position: absolute;
+    display: block;
+    position: absolute;
     margin-top: 12px;
     min-width: 130px;
     font-size: 14px;
@@ -238,12 +244,13 @@ form{
 .vocabBox{
     display: grid;
     grid-template: 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
     font-size: 20px;
 }
 
 .vocabBox .term{
     grid-column: 1 / 2;
+    margin-right: 20px;
 }
 
 .vocabBox .description{
@@ -271,10 +278,23 @@ form{
     background-color: #E9DDCF;
     width: 180px;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.sortFormBox input[type=submit]{
+.sortFormBox input[type=submit]{ 
+    border: 0;
     font-size: 16px;
+    background-color: #5BA2E4;
+    color: #021A31;
+    padding: 5px;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+
+.sortFormBox input[type=submit]:hover{
+    background-color: #064885;
+    color: white;
 }
 
 /* end vocab page styles */
