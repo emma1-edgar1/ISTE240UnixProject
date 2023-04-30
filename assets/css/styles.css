@@ -139,26 +139,6 @@ h4 {
     margin: auto;
 }
 
-
-/* OLD vocab page formatting */
-.vocab-panel {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: stretch;
-    text-align: center;
-}
-#vocab-grid{
-    display: grid;
-    grid-template: auto / 250px auto;
-}
-.compound-vocab-h2 {
-    display: flex;
-}
-.greyout-h2{
-    color: rgba(128, 128, 128, 0.682);
-}
-
 /*This targets the history page's quiz questions. */
 .flex-container {
     display: flex;
@@ -244,21 +224,28 @@ form{
 .vocabBox{
     display: grid;
     grid-template: 1fr 1fr;
-    gap: 20px;
     font-size: 20px;
 }
 
 .vocabBox .term{
     grid-column: 1 / 2;
-    margin-right: 20px;
+    background-color: #E9DDCF;
+    margin-bottom: 20px;
+    padding: 10px 15px 10px 20px;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    color: #C66918;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .vocabBox .description{
     grid-column: 2 / 3;
-}
-
-.sortFormBox {
-
+    background-color: #E9DDCF;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .sortFormBox fieldset {
@@ -309,7 +296,7 @@ form{
     text-decoration: none;
     background-color: #E9DDCF;
     color: black;
-    padding: 16px 24px;
+    padding: 16px 32px;
 }
 
 /* when link is hovered over, darken */
