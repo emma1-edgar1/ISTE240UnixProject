@@ -18,5 +18,5 @@
     </div>
 
 <?php
-    include($path . "assets/inc/footer.php");
+    include($path . "assets/inc/footer_no_nextprevious.php");
 ?>

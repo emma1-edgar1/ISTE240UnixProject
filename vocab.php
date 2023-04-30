@@ -94,5 +94,5 @@
         </div> --><!--end of vocab-grid-->
 
 <?php
-    include($path . "assets/inc/footer.php");
+    include($path . "assets/inc/footer_no_nextprevious.php");
 ?>
