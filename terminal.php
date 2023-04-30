@@ -1,6 +1,8 @@
 <?php
     $title = "Terminal - UNIX Survival Guide by the Pina Koalas - ISTE240";
     $path = "./";
+    $previousPage = "directories.php"; 
+    $nextPage = "vim.php"; 
     include($path . "assets/inc/header.php");
 ?>
 <div>

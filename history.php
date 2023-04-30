@@ -1,6 +1,8 @@
 <?php
     $title = "History - UNIX Survival Guide by the Pina Koalas - ISTE240";
     $path = "./";
+    $previousPage = "index.php"; //index
+    $nextPage = "files.php"; //files page
     include($path . "assets/inc/header.php");
 ?>
 <div>
