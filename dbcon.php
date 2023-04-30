@@ -2,7 +2,7 @@
 
 	$servername = "localhost";
 	$username = "iste240t52";
-	$password = "p6J92&$UpUCW";
+	$password = "p6J92&amp;\$UpUCW"; // p6J92&$UpUCW
 	$db = "iste240t52";
 
 	// Create connection
