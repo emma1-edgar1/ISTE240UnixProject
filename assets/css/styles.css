@@ -298,3 +298,26 @@ form{
 }
 
 /* end vocab page styles */
+
+.next-previous-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* normal link state */
+.next-previous-links a{
+    text-decoration: none;
+    background-color: #E9DDCF;
+    color: black;
+    padding: 16px 24px;
+}
+
+/* when link is hovered over, darken */
+.next-previous-links a:hover{
+    background-color: #DA8D4A;
+}
+
+/* when link is clicked, darken more */
+.next-previous-links a:focus {
+    background-color: #C66918;
+}
