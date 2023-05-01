@@ -30,7 +30,7 @@
 
   <div>
     <form>
-    <h4>What are the three permission types?</h4>
+    <h4 id="permissionsq1">What are the three permission types?</h4>
         <div>
             <input type="radio" id="permissionsq1a" name="threepermissions" value="permissionsq1a">
             <label for="permissionsq1a">read, write, and examine</label>
@@ -55,7 +55,7 @@
 
   <div>
     <form>
-    <h4>The first three positions after the "-" are the owner's permissions:</h4>
+    <h4 id="permissionsq2">The first three positions after the "-" are the owner's permissions:</h4>
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="permissionsq2a" name="firstthree" value="permissionsq2a">
@@ -72,16 +72,16 @@
 
   <div>
   <form>
-    <h4>The three middle positions are the group permissions:</h4>
+    <h4 id="permissionsq3">The three middle positions are the group permissions:</h4>
         <div>
             <!-- Correct Answer -->
-            <input type="radio" id="permissionsq4a" name="midthree" value="permissionsq4a">
-            <label for="permissionsq4a">True</label>
+            <input type="radio" id="permissionsq3a" name="midthree" value="permissionsq3a">
+            <label for="permissionsq3a">True</label>
         </div>
 
         <div>
-            <input type="radio" id="permissionsq4b" name="midthree" value="permissionsq4b">
-            <label for="permissionsq4b">False</label>
+            <input type="radio" id="permissionsq3b" name="midthree" value="permissionsq3b">
+            <label for="permissionsq3b">False</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
     </form>
@@ -89,23 +89,23 @@
 
   <div>
     <form>
-    <h4>Who are the last three positions for?</h4>
+    <h4 id="permissionsq4">Who are the last three positions for?</h4>
         <div>
-            <input type="radio" id="permissionsq1a" name="lastthree" value="permissionsq1a">
-            <label for="permissionsq1a">The owner</label>
+            <input type="radio" id="permissionsq4a" name="lastthree" value="permissionsq4a">
+            <label for="permissionsq4a">The owner</label>
         </div>
         <div>
-            <input type="radio" id="permissionsq1b" name="lastthree" value="permissionsq1b">
-            <label for="permissionsq1b">The group</label>
+            <input type="radio" id="permissionsq4b" name="lastthree" value="permissionsq4b">
+            <label for="permissionsq4b">The group</label>
         </div>
         <div>            
-            <input type="radio" id="permissionsq1c" name="lastthree" value="permissionsq1c">
-            <label for="permissionsq1c">The owner and the group</label>
+            <input type="radio" id="permissionsq4c" name="lastthree" value="permissionsq4c">
+            <label for="permissionsq4c">The owner and the group</label>
         </div>
         <div>
             <!-- Correct Answer -->
-            <input type="radio" id="permissionsq1d" name="lastthree" value="permissionsq1d">
-            <label for="permissionsq1d">Everyone else</label>
+            <input type="radio" id="permissionsq4d" name="lastthree" value="permissionsq4d">
+            <label for="permissionsq4d">Everyone else</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
     </form>
@@ -113,7 +113,7 @@
 
   <div>
   <form>
-    <h4>You are not automatically the owner of files you create:</h4>
+    <h4 id="permissionsq5a">You are not automatically the owner of files you create:</h4>
         <div>            
             <input type="radio" id="permissionsq5a" name="fileowner" value="permissionsq5a">
             <label for="permissionsq5a">True</label>

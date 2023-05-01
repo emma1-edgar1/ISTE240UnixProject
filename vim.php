@@ -24,7 +24,7 @@
 
   <div>
     <form>
-    <h4>What are the three important VIM modes?</h4>
+    <h4 id="vimq1">What are the three important VIM modes?</h4>
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="vimq1a" name="three" value="vimq1a">
@@ -51,7 +51,7 @@
 
   <div>
     <form>
-    <h4>Normal is the default mode and the mode you start in:</h4>
+    <h4 id="vimq2">Normal is the default mode and the mode you start in:</h4>
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="vimq2a" name="default" value="vimq2a">
@@ -68,7 +68,7 @@
 
   <div>
     <form>
-    <h4>What key do you press to leave insert mode?</h4>
+    <h4 id="vimq3">What key do you press to leave insert mode?</h4>
         <div>
             <input type="radio" id="vimq3a" name="leave" value="vimq3a">
             <label for="vimq3a">Press the CTRL key</label>
@@ -77,7 +77,7 @@
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="vimq3b" name="leave" value="vimq3b">
-            <label for="vimq2b">Press the ESC key</label>
+            <label for="vimq3b">Press the ESC key</label>
         </div>
 
         <div>            
@@ -95,7 +95,7 @@
 
   <div>
   <form>
-    <h4>To enter insert mode, you press press n:</h4>
+    <h4 id="vimq4">To enter insert mode, you press press n:</h4>
         <div>
             <input type="radio" id="vimq4a" name="enter" value="vimq4a">
             <label for="vimq4a">True</label>
@@ -112,7 +112,7 @@
 
   <div>
   <form>
-    <h4>:# - moves your cursor to line number #:</h4>
+    <h4 id="vimq5">:# - moves your cursor to line number #:</h4>
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="vimq5a" name="line" value="vimq5a">

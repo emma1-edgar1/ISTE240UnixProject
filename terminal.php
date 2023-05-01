@@ -34,7 +34,7 @@
   </div>
   <div>
     <form>
-    <h4>To navigate throughout your computer, you can use commands such as:</h4>
+    <h4 id="terminalq1">To navigate throughout your computer, you can use commands such as:</h4>
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="terminalq1a" name="navigate" value="terminalq1a">
@@ -61,26 +61,26 @@
 
   <div>
     <form>
-    <h4>What is “pwd” short for?</h4>
+    <h4 id="terminalq2">What is “pwd” short for?</h4>
         <div>
-            <input type="radio" id="terminalq3a" name="pwd" value="terminalq3a">
-            <label for="terminalq3a">“print working directions”</label>
+            <input type="radio" id="terminalq2a" name="pwd" value="terminalq2a">
+            <label for="terminalq2a">“print working directions”</label>
         </div>
 
         <div>
-            <input type="radio" id="terminalq3b" name="pwd" value="terminalq3b">
+            <input type="radio" id="terminalq2b" name="pwd" value="terminalq2b">
             <label for="terminalq2b">“print work directory”</label>
         </div>
 
         <div>
             <!-- Correct Answer -->
-            <input type="radio" id="terminalq3c" name="pwd" value="terminalq3c">
-            <label for="terminalq3c">“print working directory”</label>
+            <input type="radio" id="terminalq2c" name="pwd" value="terminalq2c">
+            <label for="terminalq2c">“print working directory”</label>
         </div>
 
         <div>
-            <input type="radio" id="terminalq3d" name="pwd" value="terminalq3d">
-            <label for="terminalq3d">“print work directions”</label>
+            <input type="radio" id="terminalq2d" name="pwd" value="terminalq2d">
+            <label for="terminalq2d">“print work directions”</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
     </form>
@@ -88,16 +88,16 @@
 
   <div>
   <form>
-    <h4>“cd” is short for “change directory”: </h4>
+    <h4 id="terminalq3">“cd” is short for “change directory”: </h4>
         <div>
             <!-- Correct Answer -->
-            <input type="radio" id="terminalq4a" name="change" value="terminalq4a">
-            <label for="terminalq4a">True</label>
+            <input type="radio" id="terminalq3a" name="change" value="terminalq3a">
+            <label for="terminalq3a">True</label>
         </div>
 
         <div>
-            <input type="radio" id="terminalq4b" name="change" value="terminalq4b">
-            <label for="terminalq4b">False</label>
+            <input type="radio" id="terminalq3b" name="change" value="terminalq3b">
+            <label for="terminalq3b">False</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
     </form>
@@ -105,16 +105,16 @@
 
   <div>
   <form>
-    <h4>The file system is shaped like a tree where the root is a branch: </h4>
+    <h4 id="terminalq4">The file system is shaped like a tree where the root is a branch: </h4>
         <div>
-            <input type="radio" id="terminalq5a" name="branch" value="terminalq5a">
-            <label for="terminalq5a">True</label>
+            <input type="radio" id="terminalq4a" name="branch" value="terminalq4a">
+            <label for="terminalq4a">True</label>
         </div>
 
         <div>
             <!-- Correct Answer -->
-            <input type="radio" id="terminalq5b" name="branch" value="terminalq5b">
-            <label for="terminalq5b">False</label>
+            <input type="radio" id="terminalq4b" name="branch" value="terminalq4b">
+            <label for="terminalq4b">False</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
     </form>

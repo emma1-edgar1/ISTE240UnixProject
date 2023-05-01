@@ -22,40 +22,40 @@
 <div class="flex-container">
 <div>
     <form>
-    <h4>The cp command makes a copy of your file:</h4>
+    <h4 id="filesq1">The cp command makes a copy of your file:</h4>
         <div>
             <!-- Correct Answer -->
-            <input type="radio" id="filesq2a" name="copy" value="filesq2a">
-            <label for="filesq2a">True</label>
+            <input type="radio" id="filesq1a" name="copy" value="filesq1a">
+            <label for="filesq1a">True</label>
         </div>
 
         <div>            
-            <input type="radio" id="filesq2b" name="copy" value="filesq2b">
-            <label for="filesq2b">False</label>
+            <input type="radio" id="filesq1b" name="copy" value="filesq1b">
+            <label for="filesq1b">False</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
     </form>
   </div>
   <div>
     <form>
-    <h4>What can the mv command do?</h4>
+    <h4 id="filesq2">What can the mv command do?</h4>
         <div>
-            <input type="radio" id="filesq1a" name="mvcommand" value="filesq1a">
-            <label for="filesq1a">Only move a file to a different location</label>
+            <input type="radio" id="filesq2a" name="mvcommand" value="filesq2a">
+            <label for="filesq2a">Only move a file to a different location</label>
         </div>
         <div>
-            <input type="radio" id="filesq1b" name="mvcommand" value="filesq1b">
-            <label for="filesq1b">Only rename a file</label>
+            <input type="radio" id="filesq2b" name="mvcommand" value="filesq2b">
+            <label for="filesq2b">Only rename a file</label>
         </div>
         <div>
             <!-- Correct Answer -->
-            <input type="radio" id="filesq1c" name="mvcommand" value="filesq1c">
-            <label for="filesq1c">Move and rename a file</label>
+            <input type="radio" id="filesq2c" name="mvcommand" value="filesq2c">
+            <label for="filesq2c">Move and rename a file</label>
         </div>
 
         <div>
-            <input type="radio" id="filesq1d" name="mvcommand" value="filesq1d">
-            <label for="filesq1d">None of the above</label>
+            <input type="radio" id="filesq2d" name="mvcommand" value="filesq2d">
+            <label for="filesq2d">None of the above</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
     </form>
@@ -63,16 +63,16 @@
 
   <div>
   <form>
-    <h4>The rm command is used to delete a file:</h4>
+    <h4 id="filesq3">The rm command is used to delete a file:</h4>
         <div>
             <!-- Correct Answer -->
-            <input type="radio" id="filesq4a" name="rmcommand" value="filesq4a">
-            <label for="filesq4a">True</label>
+            <input type="radio" id="filesq3a" name="rmcommand" value="filesq3a">
+            <label for="filesq3a">True</label>
         </div>
 
         <div>
-            <input type="radio" id="filesq4b" name="rmcommand" value="filesq4b">
-            <label for="filesq4b">False</label>
+            <input type="radio" id="filesq3b" name="rmcommand" value="filesq3b">
+            <label for="filesq3b">False</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
     </form>
@@ -80,7 +80,7 @@
 
   <div>
   <form>
-    <h4>To create a blank file you can use the feel command:</h4>
+    <h4 id="filesq4">To create a blank file you can use the feel command:</h4>
         <div>
             <input type="radio" id="filesq4a" name="blankfile" value="filesq4a">
             <label for="filesq4a">True</label>
@@ -97,7 +97,7 @@
 
   <div>
   <form>
-    <h4>You can search the contents of a file: </h4>
+    <h4 id="filesq5">You can search the contents of a file: </h4>
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="filesq5a" name="searchcontent" value="filesq5a">

@@ -32,23 +32,23 @@
 <div class="flex-container">
 <div>
     <form>
-    <h4>Directories and Folders are the same thing:</h4>
+    <h4 id="directq1">Directories and Folders are the same thing:</h4>
         <div>
             <!-- Correct Answer -->
-            <input type="radio" id="directq2a" name="directfold" value="directq2a">
-            <label for="directq2a">True</label>
+            <input type="radio" id="directq1a" name="directfold" value="directq1a">
+            <label for="directq1a">True</label>
         </div>
 
         <div>            
-            <input type="radio" id="directq2b" name="directfold" value="directq2b">
-            <label for="directq2b">False</label>
+            <input type="radio" id="directq2b" name="directfold" value="directq1b">
+            <label for="directq1b">False</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
     </form>
   </div>
   <div>
     <form>
-    <h4>The ls command will list files, folders, and display directories:</h4>
+    <h4 id="directq2">The ls command will list files, folders, and display directories:</h4>
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="directq2a" name="lscommand" value="directq2a">
@@ -65,16 +65,16 @@
 
   <div>
   <form>
-    <h4>If you add a -la to an ls, the result will be the exact same as an ls command:</h4>
+    <h4 id="directq3">If you add a -la to an ls, the result will be the exact same as an ls command:</h4>
         <div>
-            <input type="radio" id="directq4a" name="lsacommand" value="directq4a">
-            <label for="directq4a">True</label>
+            <input type="radio" id="directq3a" name="lsacommand" value="directq3a">
+            <label for="directq3a">True</label>
         </div>
 
         <div>
             <!-- Correct Answer -->
-            <input type="radio" id="directq4b" name="lsacommand" value="directq4b">
-            <label for="directq4b">False</label>
+            <input type="radio" id="directq3b" name="lsacommand" value="directq3b">
+            <label for="directq3b">False</label>
         </div>
         <input class="submit" type="submit" value="Check answer!">
     </form>
@@ -82,7 +82,7 @@
 
   <div>
   <form>
-    <h4>The mkdir command is used to create a new directory:</h4>
+    <h4 id="directq4">The mkdir command is used to create a new directory:</h4>
         <div>
             <!-- Correct Answer -->
             <input type="radio" id="directq4a" name="mkdir" value="directq4a">
@@ -99,7 +99,7 @@
 
   <div>
   <form>
-    <h4>The rm command is used to remove a directory:</h4>
+    <h4 id="directq5">The rm command is used to remove a directory:</h4>
         <div>
             <input type="radio" id="directq5a" name="rmdirect" value="directq5a">
             <label for="directq5a">True</label>
