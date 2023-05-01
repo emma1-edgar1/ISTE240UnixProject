@@ -5,7 +5,12 @@
 ?>
 
     <div id="homepage-block">
-        <h1>Ready to Learn Unix?</h1>
+        <div class="siteTitle">
+            <img src="assets/images/pinaKoalaLogo.png alt="Pina Koala's Logo">
+            <h1>Unix<br>Survival<br>Guide</h1>                                                        
+        </div> <!-- end .siteTitle -->
+        
+        <h2>Ready to Learn Unix?</h2>
         <button class="hoverbutton" onclick="buttonFunction()">Get Started!</button>
 
 <script>
