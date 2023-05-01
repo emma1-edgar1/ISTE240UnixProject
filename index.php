@@ -6,11 +6,12 @@
 
     <div id="homepage-block">
         <div class="siteTitle">
-            <img src="assets/images/pinaKoalaLogo.png" alt="Pina Koalas Logo">
-            <h1>Unix<br>Survival<br>Guide</h1>                                                        
+            <h1>Unix Survival Guide</h1>
+            <h2>Brought to you by</h2>
+            <img src="assets/images/pinaKoalaLogo.png" alt="Pina Koalas Logo">                                                         
         </div> <!-- end .siteTitle -->
         
-        <h2>Ready to Learn Unix?</h2>
+        <h2 id="readyToLearn">Ready to Learn Unix?</h2>
         <button class="hoverbutton" onclick="buttonFunction()">Get Started!</button>
 
 <script>
