@@ -1,6 +1,8 @@
 <?php
     $title = "Vocab - UNIX Survival Guide by the Pina Koalas - ISTE240";
     $path = "./";
+    $previousPage = "permissions.php"; 
+    $nextPage = "faq.php"; 
     include($path . "assets/inc/header.php");
 ?>
 <script>
@@ -111,5 +113,5 @@
         ?>
         </div>
 <?php
-    include($path . "assets/inc/footer_no_nextprevious.php");
+    include($path . "assets/inc/footer.php");
 ?>
