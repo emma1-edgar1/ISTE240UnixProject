@@ -23,7 +23,7 @@
 <div class="flex-container">
 
   <div>
-    <form>
+    <form method="post">
     <h4 id="vimq1">What are the three important VIM modes?</h4>
         <div>
             <!-- Correct Answer -->
@@ -50,7 +50,7 @@
   </div>
 
   <div>
-    <form>
+    <form method="post">
     <h4 id="vimq2">Normal is the default mode and the mode you start in:</h4>
         <div>
             <!-- Correct Answer -->
@@ -67,7 +67,7 @@
   </div>
 
   <div>
-    <form>
+    <form method="post">
     <h4 id="vimq3">What key do you press to leave insert mode?</h4>
         <div>
             <input type="radio" id="vimq3a" name="leave" value="vimq3a">
@@ -94,7 +94,7 @@
   </div>  
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="vimq4">To enter insert mode, you press press n:</h4>
         <div>
             <input type="radio" id="vimq4a" name="enter" value="vimq4a">
@@ -111,7 +111,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="vimq5">:# - moves your cursor to line number #:</h4>
         <div>
             <!-- Correct Answer -->

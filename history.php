@@ -21,7 +21,7 @@
 
 <div class="flex-container">
   <div>
-    <form>
+    <form method="post">
     <h4 id="historyq1">What does MULTICS stand for?</h4>
         <div>
             <input type="radio" id="historyq1a" name="multics" value="historyq1a">
@@ -48,7 +48,7 @@
   </div>
 
   <div>
-    <form>
+    <form method="post">
     <h4 id="historyq2">UNIX was developed in the late 1980s by a team of computer scientists:</h4>
         <div>
             <input type="radio" id="historyq2a" name="dev" value="historyq2a">
@@ -65,7 +65,7 @@
   </div>
 
   <div>
-    <form>
+    <form method="post">
     <h4 id="historyq3">Who led the team that created UNIX?</h4>
         <div>
             <input type="radio" id="historyq3a" name="team" value="historyq3a">
@@ -92,7 +92,7 @@
   </div>  
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="historyq4">UNIX has a hierarchical file system:</h4>
         <div>
             <!-- Correct Answer -->
@@ -109,7 +109,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="historyq5">Unix is an operating system that is not flexible:</h4>
         <div>
             <input type="radio" id="historyq5a" name="flexible" value="historyq5a">

@@ -29,7 +29,7 @@
 <div class="flex-container">
 
   <div>
-    <form>
+    <form method="post">
     <h4 id="permissionsq1">What are the three permission types?</h4>
         <div>
             <input type="radio" id="permissionsq1a" name="threepermissions" value="permissionsq1a">
@@ -54,7 +54,7 @@
   </div>
 
   <div>
-    <form>
+    <form method="post">
     <h4 id="permissionsq2">The first three positions after the "-" are the owner's permissions:</h4>
         <div>
             <!-- Correct Answer -->
@@ -71,7 +71,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="permissionsq3">The three middle positions are the group permissions:</h4>
         <div>
             <!-- Correct Answer -->
@@ -88,7 +88,7 @@
   </div>
 
   <div>
-    <form>
+    <form method="post">
     <h4 id="permissionsq4">Who are the last three positions for?</h4>
         <div>
             <input type="radio" id="permissionsq4a" name="lastthree" value="permissionsq4a">
@@ -112,7 +112,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="permissionsq5a">You are not automatically the owner of files you create:</h4>
         <div>            
             <input type="radio" id="permissionsq5a" name="fileowner" value="permissionsq5a">

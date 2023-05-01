@@ -31,7 +31,7 @@
 
 <div class="flex-container">
 <div>
-    <form>
+    <form method="post">
     <h4 id="directq1">Directories and Folders are the same thing:</h4>
         <div>
             <!-- Correct Answer -->
@@ -47,7 +47,7 @@
     </form>
   </div>
   <div>
-    <form>
+    <form method="post">
     <h4 id="directq2">The ls command will list files, folders, and display directories:</h4>
         <div>
             <!-- Correct Answer -->
@@ -64,7 +64,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="directq3">If you add a -la to an ls, the result will be the exact same as an ls command:</h4>
         <div>
             <input type="radio" id="directq3a" name="lsacommand" value="directq3a">
@@ -81,7 +81,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="directq4">The mkdir command is used to create a new directory:</h4>
         <div>
             <!-- Correct Answer -->
@@ -98,7 +98,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="directq5">The rm command is used to remove a directory:</h4>
         <div>
             <input type="radio" id="directq5a" name="rmdirect" value="directq5a">

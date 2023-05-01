@@ -21,7 +21,7 @@
 
 <div class="flex-container">
 <div>
-    <form>
+    <form method="post">
     <h4 id="filesq1">The cp command makes a copy of your file:</h4>
         <div>
             <!-- Correct Answer -->
@@ -37,7 +37,7 @@
     </form>
   </div>
   <div>
-    <form>
+    <form method="post">
     <h4 id="filesq2">What can the mv command do?</h4>
         <div>
             <input type="radio" id="filesq2a" name="mvcommand" value="filesq2a">
@@ -62,7 +62,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="filesq3">The rm command is used to delete a file:</h4>
         <div>
             <!-- Correct Answer -->
@@ -79,7 +79,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="filesq4">To create a blank file you can use the feel command:</h4>
         <div>
             <input type="radio" id="filesq4a" name="blankfile" value="filesq4a">
@@ -96,7 +96,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="filesq5">You can search the contents of a file: </h4>
         <div>
             <!-- Correct Answer -->

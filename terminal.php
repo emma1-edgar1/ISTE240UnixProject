@@ -17,7 +17,7 @@
 
 <div class="flex-container">
 <div>
-    <form>
+    <form method="post">
     <h4>The Root folder does not contain important folders: </h4>
         <div>
             <input type="radio" id="terminalq2a" name="root" value="terminalq2a">
@@ -33,7 +33,7 @@
     </form>
   </div>
   <div>
-    <form>
+    <form method="post">
     <h4 id="terminalq1">To navigate throughout your computer, you can use commands such as:</h4>
         <div>
             <!-- Correct Answer -->
@@ -60,7 +60,7 @@
   </div>
 
   <div>
-    <form>
+    <form method="post">
     <h4 id="terminalq2">What is “pwd” short for?</h4>
         <div>
             <input type="radio" id="terminalq2a" name="pwd" value="terminalq2a">
@@ -87,7 +87,7 @@
   </div>  
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="terminalq3">“cd” is short for “change directory”: </h4>
         <div>
             <!-- Correct Answer -->
@@ -104,7 +104,7 @@
   </div>
 
   <div>
-  <form>
+  <form method="post">
     <h4 id="terminalq4">The file system is shaped like a tree where the root is a branch: </h4>
         <div>
             <input type="radio" id="terminalq4a" name="branch" value="terminalq4a">
