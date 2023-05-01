@@ -17,6 +17,10 @@ h2, h4 {
     color: #C66918;
 }
 
+.quizheaderspace{
+    text-align: center;
+}
+
 h3 {
     font-weight: bold;
     font-style: italic;
