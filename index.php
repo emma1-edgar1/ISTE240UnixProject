@@ -6,7 +6,7 @@
 
     <div id="homepage-block">
         <div class="siteTitle">
-            <img src="assets/images/pinaKoalaLogo.png alt="Pina Koala's Logo">
+            <img src="assets/images/pinaKoalaLogo.png" alt="Pina Koalas Logo">
             <h1>Unix<br>Survival<br>Guide</h1>                                                        
         </div> <!-- end .siteTitle -->
         
