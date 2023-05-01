@@ -24,7 +24,7 @@
 </div>
 
 <h1>Quiz Yourself!</h1>
-<h2>Want to test your knowledge? Take the quiz!</h2>
+<h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
 <div class="flex-container">
 
