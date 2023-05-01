@@ -1,6 +1,7 @@
 <?php
     $title = "FAQ - UNIX Survival Guide by the Pina Koalas - ISTE240";
     $path = "./";
+    $previousPage = "vocab.php"; 
     include($path . "assets/inc/header.php");
 ?>
 <div>
@@ -39,5 +40,5 @@
     </ul>   
 </div>
 <?php
-    include($path . "assets/inc/footer.php");
+    include($path . "assets/inc/footer_only_previous.php");
 ?>
