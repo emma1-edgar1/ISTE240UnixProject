@@ -35,6 +35,8 @@ h4 {
     margin-top: 0px;
 }
 
+/* homepage styles */ 
+
 #homepage-block{
     display:flex;
     flex-direction:column;
@@ -69,6 +71,36 @@ h4 {
     background-color: #064885;
     color: white;
 }
+
+.siteTitle {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.siteTitle img {
+    width: 50%;
+    max-width: 300px;
+}
+ 
+.siteTitle h1 {
+    margin: 0;
+}
+
+.siteTitle h2 {
+    margin: 0;
+    padding: 10px 0 20px 0;
+}
+
+#readyToLearn {
+    font-size: 36px;
+}
+
+#homepage-h2 h2 {
+    font-weight: 400;
+}
+
+/* end homepage styles */ 
 
 /* Button works, but there is an issue where you can also click next to button and it still works. */
 .hoverbutton {
