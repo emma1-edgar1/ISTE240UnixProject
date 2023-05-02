@@ -328,3 +328,332 @@ form{
 .next-previous-links a:focus {
     background-color: #C66918;
 }
+
+
+/* ///////////////////////////WHEN SCREEN IS LESS THAN 500PX SCREEN SIZE, DO THIS////////////////////////////////////// */
+@media (500px <= width) {
+
+    body {
+        margin: 0px;
+        background-image: url(../images/background.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    h1 {
+        color: #5BA2E4;
+        font-size: 3em;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    h2, h4 {
+        color: #C66918;
+    }
+    
+    .quizheaderspace{
+        text-align: center;
+    }
+    
+    h3 {
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    h4, label{
+        font-size: 18px;
+    }
+    
+    /* Adjusts margin */
+    h4 {
+        margin-top: 0px;
+    }
+    
+    #homepage-block{
+        display:flex;
+        flex-direction:column;
+        align-content:flex-end;
+        text-align: center;
+        background-color: #FCF0E1;
+        padding: 2em;
+    }
+    
+    #homepage-h2{
+        background-color: #FFF9F2;
+        margin: 2em;
+        padding:1em;
+    }
+    
+    #homepage-block a {
+        /* background color */
+        text-decoration: none;
+        background-color: #5BA2E4;
+        /* text color */
+        color: #021A31;
+        border: none;
+        border-radius: 10px;
+        padding: 1em;
+        min-width: 150px;
+        max-width: 200px;
+        font-size: 1em;
+        margin: auto;
+        
+    }
+    
+    #homepage-block a:hover{
+        background-color: #064885;
+        color: white;
+    }
+    
+    /* Button works, but there is an issue where you can also click next to button and it still works. */
+    .hoverbutton {
+        cursor: pointer;
+      }
+    
+    /* menu nav bar formatting */
+    
+    /* targets all unordered lists */
+    .menu ul {
+        display:flex;
+        margin:0;
+        padding:0;
+        list-style: none;
+        justify-content: space-around;
+        background-color: #4286c5;
+        box-shadow: 3px 0 3px black;
+    }
+    
+    /* targets all list items in the class */
+    .menu li {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .menu li:hover {
+        background-color: #064885;
+    }
+    
+    /* specifically targets the submenu gruops in the menu class */
+    .menu .submenu {
+        display: block;
+        position:absolute;
+        top: 43px;
+        /* left: 10px; */
+        background-color: #064885;
+    }
+    
+    /* targets list items in the submenus, important for colors appearance */
+    .menu li .submenu {
+        display:none;
+        transition: 1s opacity;
+    }
+    
+    /* targets all the links in the menu and submenu classes */
+    .menu a, .submenu a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menu li:hover .submenu {
+        display: block;
+        opacity: 100%;
+    }
+    
+    
+    .content-block {
+        display:flex;
+        flex-direction:column;
+        align-content:flex-end;
+        /*text-align: center;*/
+        background-color: #FCF0E1;
+        width: 80%;
+        margin: auto;
+        margin-top: 5em;
+        margin-bottom: 5em;
+        padding: 2em;
+        padding-bottom: 80px;
+    }
+    
+    .textBlock {
+        width: 80%;
+        margin: auto;
+    }
+    
+    /*This targets the history page's quiz questions. */
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: #FFF9F2; */
+        border-radius: 20px;
+        justify-content: center;
+    }
+    
+    /*This targets the history page's quiz questions. */
+    .flex-container > div {
+        background-color: #E9DDCF;
+        width: 350px;
+        margin: 10px;
+        padding: 20px;
+        font-size:10px;
+        line-height: 2em;
+        border-radius: 20px;
+    }
+    
+    .quizForm input[type=submit]{ 
+        border: 0;
+        font-size: 16px;
+        background-color: #5BA2E4;
+        color: #021A31;
+        padding: 5px;
+        margin-top: 10px;
+        border-radius: 2px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .quizForm input[type=submit]:hover{
+        background-color: #064885;
+        color: white;
+    }
+    
+    /* Targets the content paragraphs */
+    p, .formatlist li{
+        font-size: 20px;
+        text-align: left;
+        padding-top: 30px;
+        line-height: 2em;
+    }
+    
+    /* Targets the all quiz questions */
+    form{
+        text-align: left;
+    }
+    
+    
+    /* Attempting to fix dropdown menu files and folders */
+    .dropdown{
+        display: block;
+        position: relative;
+        float: left;
+        padding: 12px;
+        font-size: 14px;
+        min-width: 115px;
+        border: none;
+        text-align: center;
+    }
+    
+    .submenu {
+        display: none;
+    }
+    
+    .dropdown li {
+        line-height: 30px;
+        width: 100%;
+        max-width: 115px;
+        padding: 8px;
+    }
+    
+    .expand {
+        font-size: 14px;
+        float: right;
+        margin-right: 25px;
+    }
+    
+    .submenu:hover>ul{
+        display: block;
+        position: absolute;
+        margin-top: 12px;
+        min-width: 130px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    /* vocab page */
+    
+    .vocabBox{
+        display: grid;
+        grid-template: 1fr 1fr;
+        font-size: 20px;
+    }
+    
+    .vocabBox .term{
+        grid-column: 1 / 2;
+        background-color: #E9DDCF;
+        margin-bottom: 20px;
+        padding: 10px 15px 10px 20px;
+        font-family: 'Courier Prime', monospace;
+        font-weight: bold;
+        color: #C66918;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    .vocabBox .description{
+        grid-column: 2 / 3;
+        background-color: #E9DDCF;
+        margin-bottom: 20px;
+        padding: 10px 20px 10px 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .sortFormBox fieldset {
+        border: 0;
+        display: inline-block;
+    }
+    
+    .sortFormBox form {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .sortFormBox input[type=text] {
+        border-radius: 10px;
+        border: 1px solid black;
+        padding: 3px;
+        background-color: #E9DDCF;
+        width: 220px;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .sortFormBox input[type=submit]{ 
+        border: 0;
+        font-size: 16px;
+        background-color: #5BA2E4;
+        color: #021A31;
+        padding: 5px;
+        border-radius: 2px;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 10px;
+    }
+    
+    .sortFormBox input[type=submit]:hover{
+        background-color: #064885;
+        color: white;
+    }
+    
+    /* end vocab page styles */
+    
+    .next-previous-links {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    /* normal link state */
+    .next-previous-links a{
+        text-decoration: none;
+        background-color: #E9DDCF;
+        color: black;
+        padding: 16px 32px;
+    }
+    
+    /* when link is hovered over, darken */
+    .next-previous-links a:hover{
+        background-color: #DA8D4A;
+    }
+    
+    /* when link is clicked, darken more */
+    .next-previous-links a:focus {
+        background-color: #C66918;
+    }
+}
