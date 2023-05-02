@@ -50,8 +50,9 @@ h4 {
     padding:1em;
 }
 
-#homepage-block button {
+#homepage-block a {
     /* background color */
+    text-decoration: none;
     background-color: #5BA2E4;
     /* text color */
     color: #021A31;
@@ -65,7 +66,7 @@ h4 {
     
 }
 
-#homepage-block button:hover{
+#homepage-block a:hover{
     background-color: #064885;
     color: white;
 }
@@ -150,7 +151,7 @@ h4 {
     /* background-color: #FFF9F2; */
     border-radius: 20px;
     justify-content: center;
-  }
+}
 
 /*This targets the history page's quiz questions. */
 .flex-container > div {
@@ -161,7 +162,22 @@ h4 {
     font-size:14px;
     line-height: 2em;
     border-radius: 20px;
-  }
+}
+
+.quizForm input[type=submit]{ 
+    border: 0;
+    font-size: 16px;
+    background-color: #5BA2E4;
+    color: #021A31;
+    padding: 5px;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quizForm input[type=submit]:hover{
+    background-color: #064885;
+    color: white;
+}
 
 /* Targets the content paragraphs */
 p, .formatlist li{
