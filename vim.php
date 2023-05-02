@@ -7,6 +7,9 @@
 ?>
 <div>
     <h1>VIM</h1>
+    <?php
+        include($path . "assets/inc/quizJump.php")
+    ?>
     <p>VIM is a text editor that pairs with Unix. </br> create/open a file: </br> To create or open a file, type: “vim filename” (ie vim index.html)</br> Example: vim index.html </br> The 3 Important Modes: </br> There are 3 important VIM modes: normal, insert, and command.</br> Normal is the default mode and the mode you start in. It is for navigating and simple editing. </br>Insert is the mode explicitly for inserting and modifying text.</br> How to use:</br> With a file open, press i to enter into insert mode. The file can now be modified. </br> To leave insert mode, press the ESC key. </br> When you are done inserting into a file, and have left insert mode, type :wq or :x! To save and exit to the command line.</br> Or, if you do not want to save, exit with :q!</br> Command mode is the command line used for operations like saving and exiting.</br> A useful command mode tool is text replacement (10)</br> Example: :%s/hello/bye/g </br> : enters command mode </br> % denotes that the change will take place across all lines </br> s means substitute </br> /hello is a regular expression to find ‘hello’ </br> /bye/ is a regular expression to replace things with ‘bye’</br> /g means global, allowing the change to execute over multiple lines</br></p>
     <h2>Navigation in VIM</h2>
     <p>One way to navigate around VIM is to use arrow keys. But, the bigger the program is, the less convenient this is.</br> There are many shortcuts to navigate in VIM:</br> :set number - enables line number</br> :# - moves your cursor to line number #</br> :$ - moves your cursor  to the end of the file</br> $ - moves your cursor  to the end of the current line </br></p>
@@ -17,7 +20,7 @@
 
 </div>
 
-<h1>Quiz Yourself!</h1>
+<h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
 <div class="flex-container">
