@@ -71,7 +71,7 @@
 
                 <div>
                     <input type="radio" id="historyq3b" name="team" value="historyq3b">
-                    <label for="historyq2b">Ken Richard and Dennis Thomas</label>
+                    <label for="historyq3b">Ken Richard and Dennis Thomas</label>
                 </div>
 
                 <div>
