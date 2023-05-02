@@ -16,7 +16,7 @@
     <p>Since AT&T continued to work on UNIX, they released a new version of UNIX called System V in 1983. Other companies such as Sun Microsystems, Inc., and Silicon Graphics, Inc., also created UNIX versions as well as continued to develop UNIX which allowed for it to stay relevant. Since UNIX was incredibly successful, it was used as the inspiration for many free open-source operating systems, including Linux, which has mostly replaced UNIX in recent years.</p>
 </div>
 
-<h1>Quiz Yourself!</h1>
+<h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
 <div class="flex-container">
