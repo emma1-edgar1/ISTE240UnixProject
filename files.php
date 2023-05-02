@@ -4,6 +4,28 @@
     $previousPage = "history.php"; 
     $nextPage = "directories.php"; 
     include($path . "assets/inc/header.php");
+
+    // form sanitization method
+    function sanitize($str){
+        $str = trim($str); 
+        $str = strip_tags($str);
+        $str = htmlentities($str);
+        return $str;
+    }
+
+    if(!empty($_POST['copy']) && !empty($_POST['mvcommand']) && !empty($_POST['rmcommand']) && !empty($_POST['blankfile']) && !empty($_POST['searchcontent'])){
+        $copy = sanitize($_POST['copy']);
+        $mvcommand = sanitize($_POST['mvcommand']);
+        $rmcommand = sanitize($_POST['rmcommand']);
+        $blankfile = sanitize($_POST['blankfile']);
+        $searchcontent = sanitize($_POST['searchcontent']);
+
+        $copy = filter_var($copy, FILTER_SANITIZE_STRING);
+        $mvcommand = filter_var($mvcommand, FILTER_SANITIZE_STRING);
+        $rmcommand = filter_var($rmcommand, FILTER_SANITIZE_STRING);
+        $blankfile = filter_var($blankfile, FILTER_SANITIZE_STRING);
+        $searchcontent = filter_var($searchcontent, FILTER_SANITIZE_STRING);
+    }
 ?>
 <div>
     <h1>Files</h1>
