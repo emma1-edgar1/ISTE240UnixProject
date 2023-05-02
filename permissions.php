@@ -8,6 +8,9 @@
 
 <div>
     <h1>Permissions</h1>
+    <?php
+        include($path . "assets/inc/quizJump.php")
+    ?>
     <p>UNIX commands allow you to set permissions for every file which allows you to control who can read, write, or view a file on a Web page. You are automatically the owner of files you create so unless you give permission for others to edit or change a file, they are unable to do so.</p>
     <h2>The three actions you can perform a file:</h2>
     <ul class="formatlist">
@@ -23,7 +26,7 @@
     </ul>   
 </div>
 
-<h1>Quiz Yourself!</h1>
+<h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
 <div class="flex-container">
