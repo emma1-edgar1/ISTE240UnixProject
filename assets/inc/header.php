@@ -22,27 +22,12 @@
     
             <li class="dropdown"><a href="#">Files and Folders</a>
                 <ul class="submenu">
-                    <li class="dropdown"><a href="files.php">Files</a>
-                    <!-- <li class="dropdown"><a href="files.php">Files<span class="expand">»</span></a> -->
-                        <!-- <ul class="submenu">
-                            <li><a href=#>File page 1</a></li>
-                            <li><a href=#>File page 2</a></li>
-                            <li><a href=#>File page 3</a></li>
-                        </ul> -->
-                    </li>
-            
-                    <li><a href="directories.php">Folders</a>
-                    <li><a href="terminal.php">Terminal</a>
-                    <li><a href="vim.php">VIM</a>
-                        <!-- <ul class="submenu">
-                            <li><a href=#>What Are Directories?</a></li>
-                            <li><a href=#>Making/Removing</a></li>
-                            <li><a href=#>editing</a></li>
-                            <li><a href=#>Moving</a></li>
-                        </ul> -->
-                    </li>
+                    <li class="dropdown"><a href="files.php">Files</a></li>
+                    <li><a href="directories.php">Folders</a></li>
+                    <li><a href="terminal.php">Terminal</a></li>
+                    <li><a href="vim.php">VIM</a></li>
                 </ul>
-            </li> <!--end of files and filders li-->
+            </li> <!--end of files and folders li-->
     
             <li><a href="permissions.php">File Permissions</a></li>
     
@@ -50,6 +35,34 @@
             <li><a href="faq.php">FAQ/Help</a></li>
         </uL>  <!--all menu items enclosed in here-->
     </div> <!--dropdown div end-->
+    <div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="index.php" class="active">Home</a>
+  <div id="myPages">
+    <a href="history.php">History</a>
+    <a href="files.php">Files</a>
+    <a href="directories.php">Folders</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="menuFunc()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function menuFunc() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
     <div class="content-block">
         <div class="textBlock">
