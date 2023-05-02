@@ -4,6 +4,28 @@
     $previousPage = "files.php"; 
     $nextPage = "terminal.php"; 
     include($path . "assets/inc/header.php");
+
+    // form sanitization method
+    function sanitize($str){
+        $str = trim($str); 
+        $str = strip_tags($str);
+        $str = htmlentities($str);
+        return $str;
+    }
+
+    if(!empty($_POST['directfold']) && !empty($_POST['lscommand']) && !empty($_POST['lsacommand']) && !empty($_POST['mkdir']) && !empty($_POST['rmdirect'])){
+        $directfold = sanitize($_POST['directfold']);
+        $lscommand = sanitize($_POST['lscommand']);
+        $lsacommand = sanitize($_POST['lsacommand']);
+        $mkdir = sanitize($_POST['mkdir']);
+        $rmdirect = sanitize($_POST['rmdirect']);
+
+        $directfold = filter_var($directfold, FILTER_SANITIZE_STRING);
+        $lscommand = filter_var($lscommand, FILTER_SANITIZE_STRING);
+        $lsacommand = filter_var($lsacommand, FILTER_SANITIZE_STRING);
+        $mkdir = filter_var($mkdir, FILTER_SANITIZE_STRING);
+        $rmdirect = filter_var($rmdirect, FILTER_SANITIZE_STRING);
+    }
 ?>
 <div>
     <h1>Directories</h1>
@@ -32,7 +54,7 @@
 <h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
-<form method="post" class="quizForm">
+<form method="post" class="quizForm" onsubmit="return validateFolders();">
     <div class="flex-container">
         <div>
             <h4 id="directq1">Directories and Folders are the same thing:</h4>
