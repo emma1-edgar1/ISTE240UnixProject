@@ -1,6 +1,7 @@
 <?php
     $title = "UNIX Survival Guide by the Pina Koalas - ISTE240";
     $path = "./";
+    $nextPage = "history.php"; 
     include($path . "assets/inc/header.php");
 ?>
 
@@ -12,13 +13,14 @@
         </div> <!-- end .siteTitle -->
         
         <h2 id="readyToLearn">Ready to Learn Unix?</h2>
-        <button class="hoverbutton" onclick="buttonFunction()">Get Started!</button>
+        <!-- <button class="hoverbutton" onclick="buttonFunction()">Get Started!</button> -->
+        <a href="<?php echo $nextPage?>" class="getstarted">Get Started!</a>
 
-<script>
+<!-- <script>
     function buttonFunction() {
         location.replace("https://solace.ist.rit.edu/~iste240t52/ISTE240UnixProject/history.php")
     }
-</script>
+</script> -->
 
         <div id="homepage-h2"><h2>Know what you're looking for? Check out the topics at the top of the page.</h2></div>
     </div>
