@@ -367,7 +367,7 @@ form{
 
 
 /* ///////////////////////////WHEN SCREEN IS LESS THAN 500PX SCREEN SIZE, DO THIS////////////////////////////////////// */
-@media (500px <= width) { 
+@media (500px >= width) { 
      /*Targets the header and label text in quiz questions  */
     h4, label{
         font-size: 14px;
@@ -379,17 +379,6 @@ form{
         /* text-align: left;
         padding-top: 30px;
         line-height: 2em; */
-    }
-
-    /*This targets the history page's quiz questions. */
-    .flex-container > div {
-        /* background-color: #E9DDCF; */
-        /* width: 350px; */
-        margin: 0px;
-        /* padding: 20px; */
-        /* font-size:14px; */
-        /* line-height: 2em; */
-        /* border-radius: 20px; */
     }
 
     /* jump to quiz button styles */
