@@ -344,3 +344,19 @@ form{
 .next-previous-links a:focus {
     background-color: #C66918;
 }
+
+/* jump to quiz button styles */
+
+.jumpToQuizButton a {
+    text-decoration: none;
+    background-color: #5BA2E4;
+    color: #021A31;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.jumpToQuizButton a:hover {
+    background-color: #064885;
+    color: white;
+}
