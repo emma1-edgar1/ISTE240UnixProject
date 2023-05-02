@@ -166,6 +166,7 @@ h4 {
     display:flex;
     flex-direction:column;
     align-content:flex-end;
+    justify-content: center;
     /*text-align: center;*/
     background-color: #FCF0E1;
     width: 80%;
@@ -205,8 +206,9 @@ h4 {
     border: 0;
     font-size: 16px;
     background-color: #5BA2E4;
-    color: #021A31;
-    padding: 5px;
+    color: White;
+    padding: 10px;
+    margin: 15px;
     border-radius: 2px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -390,15 +392,21 @@ form{
     .topnav {
         display: block;
         overflow: hidden;
-        background-color: #333;
+        background-color: #DA8D4A;
         position: relative;
+      }
+      
+      /* div with just the links */
+      .topnav #myPages {
+        display: block;
       }
       
     /* specifically the hamburger menu link */
     .topnav a.icon {
         display: block;
         background-image: url('../images/hamburger_white.png');
-        max-height: 20px;
+        max-height: 50px;
+        width: auto;
         position: absolute;
         z-index: 1;
         right: 30px;
@@ -408,19 +416,14 @@ form{
         background-color: #ddd;
         color: black;
     }
-      
-      /* div with just the links */
-      .topnav #myPages {
-        display: block;
-      }
-      
-      /* links themselves */
+
+      /* all links themselves */
       .topnav a {
+        display: block;
         color: white;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 14px;
-        display: block;
       }
       
 
