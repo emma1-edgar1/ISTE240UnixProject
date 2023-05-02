@@ -52,8 +52,9 @@ h4 {
     padding:1em;
 }
 
-#homepage-block button {
+#homepage-block a {
     /* background color */
+    text-decoration: none;
     background-color: #5BA2E4;
     /* text color */
     color: #021A31;
@@ -67,7 +68,7 @@ h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
-#homepage-block button:hover{
+#homepage-block a:hover{
     background-color: #064885;
     color: white;
 }
