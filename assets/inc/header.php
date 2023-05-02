@@ -60,7 +60,7 @@
 
         <script>
         function menuFunc() {
-        var x = document.getElementById("myLinks");
+        var x = document.getElementById("myPages");
         if (x.style.display === "block") {
             x.style.display = "none";
         } else {
