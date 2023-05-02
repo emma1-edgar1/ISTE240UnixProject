@@ -40,17 +40,17 @@
     <div class="mobile-container">
         <!-- Top Navigation Menu -->
         <div class="topnav">
-        <a href="index.php" class="active">Home</a>
-        <div id="myPages">
-            <a href="history.php">History</a>
-            <a href="files.php">Files</a>
-            <a href="directories.php">Folders</a>
-            <a href="terminal.php">Terminal</a>
-            <a href="vim.php">VIM</a>
-            <a href="permissions.php">File Permissions</a>
-            <a href="vocab.php">Vocab Index</a>
-            <a href="faq.php">FAQ</a>
-        </div>
+            <div id="myPages">
+                <a href="index.php">Home</a>
+                <a href="history.php">History</a>
+                <a href="files.php">Files</a>
+                <a href="directories.php">Folders</a>
+                <a href="terminal.php">Terminal</a>
+                <a href="vim.php">VIM</a>
+                <a href="permissions.php">File Permissions</a>
+                <a href="vocab.php">Vocab Index</a>
+                <a href="faq.php">FAQ</a>
+            </div>
         <a href="javascript:void(0);" class="icon" onclick="menuFunc()">
             <i class="fa fa-bars"></i>
         </a>
