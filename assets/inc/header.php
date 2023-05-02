@@ -7,9 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/js/validate.js">
     <title><?php echo $title ?></title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.png">
-    <link rel="stylesheet" href="assets/css/styles.css">
     
 </head>
 <body>
