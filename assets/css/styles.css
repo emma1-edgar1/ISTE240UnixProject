@@ -386,6 +386,7 @@ form{
         display: none;
     }
 
+    /* div with links and menu link/button thing */
     .topnav {
         display: block;
         overflow: hidden;
@@ -393,11 +394,27 @@ form{
         position: relative;
       }
       
+    /* specifically the hamburger menu link */
+    .topnav a.icon {
+        display: block;
+        background-image: url('../images/hamburger_white.png');
+        max-height: 20px;
+        position: absolute;
+        z-index: 1;
+        right: 30px;
+        top: 30px;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+      
+      /* div with just the links */
       .topnav #myPages {
-        display: none;
+        display: block;
       }
       
-      /* links */
+      /* links themselves */
       .topnav a {
         color: white;
         padding: 14px 16px;
@@ -406,20 +423,7 @@ form{
         display: block;
       }
       
-      /* specifically the hamburger menu link */
-      .topnav a.icon {
-        display: block;
-        background-image: url('../images/hamburger_white.png');
-        max-height: 20px;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
+
 }
 
 /* ///////////////////////////WHEN SCREEN IS LESS THAN 500PX SCREEN SIZE, DO THIS////////////////////////////////////// */
