@@ -7,6 +7,9 @@
 ?>
 <div>
     <h1>Directories</h1>
+    <?php
+        include($path . "assets/inc/quizJump.php")
+    ?>
     <p>In Linux and Unix Operating Systems, a command starts with the actual command itself, such as: </br> ls </br> If you type in the ls command, a list of files, folders, and directories will be displayed. </br> Many commands also have a variety of options. For example, the ls command has many options, such as the -a which would  list all the files, including the ones that begin with a period which keeps them slightly hidden. </br> If you add a -la to an ls, it will list all of the files using option grouping in a longer format. </br> You can also add arguments at the end of a command, such as when you want to get a list of files, folders, and directories from within a specific directory. For example: </br> ls -la / </br> This command would list the files, folders, and directories from the root of the tree structure. </br></p>
     <h2>Making Directories:</h2>
     <p>The mkdir command is used to create a new directory followed by the name you would like to give the directory:</br>mkdir mydirectory</br></p>
@@ -26,7 +29,7 @@
     </ul>    
 </div>
 
-<h1>Quiz Yourself!</h1>
+<h1 id="quizAnchor">Quiz Yourself!>Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
 <div class="flex-container">
