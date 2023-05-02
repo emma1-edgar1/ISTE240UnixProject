@@ -22,113 +22,100 @@
 <h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
-<div class="flex-container">
-  <div>
-    <form method="post">
-    <h4 id="historyq1">What does MULTICS stand for?</h4>
+<form method="post">
+    <div class="flex-container">
         <div>
-            <input type="radio" id="historyq1a" name="multics" value="historyq1a">
-            <label for="historyq1a">Multiplexed Informational and Computing System</label>
+            <h4 id="historyq1">What does MULTICS stand for?</h4>
+            <div>
+                <input type="radio" id="historyq1a" name="multics" value="historyq1a">
+                <label for="historyq1a">Multiplexed Informational and Computing System</label>
+            </div>
+
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="historyq1b" name="multics" value="historyq1b">
+                <label for="historyq1b">Multiplexed Information and Computing Service</label>
+            </div>
+
+            <div>
+                <input type="radio" id="historyq1c" name="multics" value="historyq1c">
+                <label for="historyq1c">Multiplex Information and Computer Service</label>
+            </div>
+
+            <div>
+                <input type="radio" id="historyq1d" name="multics" value="historyq1d">
+                <label for="historyq1d">Multiplex Informational and Computing System</label>
+            </div>
         </div>
 
         <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="historyq1b" name="multics" value="historyq1b">
-            <label for="historyq1b">Multiplexed Information and Computing Service</label>
+            <h4 id="historyq2">UNIX was developed in the late 1980s by a team of computer scientists:</h4>
+                <div>
+                    <input type="radio" id="historyq2a" name="dev" value="historyq2a">
+                    <label for="historyq2a">True</label>
+                </div>
+
+                <div>
+                    <!-- Correct Answer -->
+                    <input type="radio" id="historyq2b" name="dev" value="historyq2b">
+                    <label for="historyq2b">False</label>
+                </div>
         </div>
 
         <div>
-            <input type="radio" id="historyq1c" name="multics" value="historyq1c">
-            <label for="historyq1c">Multiplex Information and Computer Service</label>
+            <h4 id="historyq3">Who led the team that created UNIX?</h4>
+                <div>
+                    <input type="radio" id="historyq3a" name="team" value="historyq3a">
+                    <label for="historyq3a">Ken Thomas and Dennis Richard</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="historyq3b" name="team" value="historyq3b">
+                    <label for="historyq2b">Ken Richard and Dennis Thomas</label>
+                </div>
+
+                <div>
+                    <!-- Correct Answer -->
+                    <input type="radio" id="historyq3c" name="team" value="historyq3c">
+                    <label for="historyq3c">Ken Thompson and Dennis Ritchie</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="historyq3d" name="team" value="historyq3d">
+                    <label for="historyq3d">Ken Ritchie and Dennis Thompson</label>
+                </div>
+        </div>  
+
+        <div>
+            <h4 id="historyq4">UNIX has a hierarchical file system:</h4>
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="historyq4a" name="hierarchy" value="historyq4a">
+                <label for="historyq4a">True</label>
+            </div>
+
+            <div>
+                <input type="radio" id="historyq4b" name="hierarchy" value="historyq4b">
+                <label for="historyq4b">False</label>
+            </div>
         </div>
 
         <div>
-            <input type="radio" id="historyq1d" name="multics" value="historyq1d">
-            <label for="historyq1d">Multiplex Informational and Computing System</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
+            <h4 id="historyq5">Unix is an operating system that is not flexible:</h4>
+            <div>
+                <input type="radio" id="historyq5a" name="flexible" value="historyq5a">
+                <label for="historyq5a">True</label>
+            </div>
 
-  <div>
-    <form method="post">
-    <h4 id="historyq2">UNIX was developed in the late 1980s by a team of computer scientists:</h4>
-        <div>
-            <input type="radio" id="historyq2a" name="dev" value="historyq2a">
-            <label for="historyq2a">True</label>
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="historyq5b" name="flexible" value="historyq5b">
+                <label for="historyq5b">False</label>
+            </div>
         </div>
-
-        <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="historyq2b" name="dev" value="historyq2b">
-            <label for="historyq2b">False</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
-
-  <div>
-    <form method="post">
-    <h4 id="historyq3">Who led the team that created UNIX?</h4>
-        <div>
-            <input type="radio" id="historyq3a" name="team" value="historyq3a">
-            <label for="historyq3a">Ken Thomas and Dennis Richard</label>
-        </div>
-
-        <div>
-            <input type="radio" id="historyq3b" name="team" value="historyq3b">
-            <label for="historyq2b">Ken Richard and Dennis Thomas</label>
-        </div>
-
-        <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="historyq3c" name="team" value="historyq3c">
-            <label for="historyq3c">Ken Thompson and Dennis Ritchie</label>
-        </div>
-
-        <div>
-            <input type="radio" id="historyq3d" name="team" value="historyq3d">
-            <label for="historyq3d">Ken Ritchie and Dennis Thompson</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>  
-
-  <div>
-  <form method="post">
-    <h4 id="historyq4">UNIX has a hierarchical file system:</h4>
-        <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="historyq4a" name="hierarchy" value="historyq4a">
-            <label for="historyq4a">True</label>
-        </div>
-
-        <div>
-            <input type="radio" id="historyq4b" name="hierarchy" value="historyq4b">
-            <label for="historyq4b">False</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
-
-  <div>
-  <form method="post">
-    <h4 id="historyq5">Unix is an operating system that is not flexible:</h4>
-        <div>
-            <input type="radio" id="historyq5a" name="flexible" value="historyq5a">
-            <label for="historyq5a">True</label>
-        </div>
-
-        <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="historyq5b" name="flexible" value="historyq5b">
-            <label for="historyq5b">False</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
-
-</div>
+    </div><!-- end flex container -->
+    <input class="submit" type="submit" value="Check answers!">
+</form>
 
 <?php
     include($path . "assets/inc/footer.php");
