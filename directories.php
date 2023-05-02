@@ -43,7 +43,7 @@
             </div>
 
             <div>            
-                <input type="radio" id="directq2b" name="directfold" value="directq1b">
+                <input type="radio" id="directq1b" name="directfold" value="directq1b">
                 <label for="directq1b">False</label>
             </div>
         </div>
