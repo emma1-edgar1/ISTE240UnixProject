@@ -4,7 +4,30 @@
     $previousPage = "vim.php"; 
     $nextPage = "vocab.php"; 
     include($path . "assets/inc/header.php");
+
+    // form sanitization method
+    function sanitize($str){
+        $str = trim($str); 
+        $str = strip_tags($str);
+        $str = htmlentities($str);
+        return $str;
+    }
+
+    if(!empty($_POST['threepermissions']) && !empty($_POST['firstthree']) && !empty($_POST['midthree']) && !empty($_POST['lastthree']) && !empty($_POST['fileowner'])){
+        $threepermissions = sanitize($_POST['threepermissions']);
+        $firstthree = sanitize($_POST['firstthree']);
+        $midthree = sanitize($_POST['midthree']);
+        $lastthree = sanitize($_POST['lastthree']);
+        $fileowner = sanitize($_POST['fileowner']);
+
+        $threepermissions = filter_var($threepermissions, FILTER_SANITIZE_STRING);
+        $firstthree = filter_var($firstthree, FILTER_SANITIZE_STRING);
+        $midthree = filter_var($midthree, FILTER_SANITIZE_STRING);
+        $lastthree = filter_var($lastthree, FILTER_SANITIZE_STRING);
+        $fileowner = filter_var($fileowner, FILTER_SANITIZE_STRING);
+    }
 ?>
+
 
 <div>
     <h1>Permissions</h1>
