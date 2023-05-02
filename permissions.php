@@ -103,7 +103,7 @@
         </div>
 
         <div>
-            <h4 id="permissionsq5a">You are not automatically the owner of files you create:</h4>
+            <h4 id="permissionsq5">You are not automatically the owner of files you create:</h4>
             <div>            
                 <input type="radio" id="permissionsq5a" name="fileowner" value="permissionsq5a">
                 <label for="permissionsq5a">True</label>
