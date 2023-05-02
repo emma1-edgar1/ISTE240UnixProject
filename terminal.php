@@ -18,111 +18,100 @@
 <h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
-<div class="flex-container">
-<div>
-    <form method="post">
-    <h4>The Root folder does not contain important folders: </h4>
+<form method="post" class="quizForm">
+    <div class="flex-container">
         <div>
-            <input type="radio" id="terminalq2a" name="root" value="terminalq2a">
-            <label for="terminalq2a">True</label>
+            <h4>The Root folder does not contain important folders: </h4>
+            <div>
+                <input type="radio" id="terminalq2a" name="root" value="terminalq2a">
+                <label for="terminalq2a">True</label>
+            </div>
+
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="terminalq2b" name="root" value="terminalq2b">
+                <label for="terminalq2b">False</label>
+            </div>
         </div>
 
         <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="terminalq2b" name="root" value="terminalq2b">
-            <label for="terminalq2b">False</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
-  <div>
-    <form method="post">
-    <h4 id="terminalq1">To navigate throughout your computer, you can use commands such as:</h4>
-        <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="terminalq1a" name="navigate" value="terminalq1a">
-            <label for="terminalq1a">“pwd”, “cd”, and “ls”</label>
+            <h4 id="terminalq1">To navigate throughout your computer, you can use commands such as:</h4>
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="terminalq1a" name="navigate" value="terminalq1a">
+                <label for="terminalq1a">“pwd”, “cd”, and “ls”</label>
+            </div>
+
+            <div>
+                <input type="radio" id="terminalq1b" name="navigate" value="terminalq1b">
+                <label for="terminalq1b">“pwd”, “mv”, and “ls”</label>
+            </div>
+
+            <div>
+                <input type="radio" id="terminalq1c" name="navigate" value="terminalq1c">
+                <label for="terminalq1c">“pwd”, “cd”, and “rm”</label>
+            </div>
+
+            <div>
+                <input type="radio" id="terminalq1d" name="navigate" value="terminalq1d">
+                <label for="terminalq1d">“pwd”, “cd”, and “ls”</label>
+            </div>
         </div>
 
         <div>
-            <input type="radio" id="terminalq1b" name="navigate" value="terminalq1b">
-            <label for="terminalq1b">“pwd”, “mv”, and “ls”</label>
+            <h4 id="terminalq2">What is “pwd” short for?</h4>
+            <div>
+                <input type="radio" id="terminalq2a" name="pwd" value="terminalq2a">
+                <label for="terminalq2a">“print working directions”</label>
+            </div>
+
+            <div>
+                <input type="radio" id="terminalq2b" name="pwd" value="terminalq2b">
+                <label for="terminalq2b">“print work directory”</label>
+            </div>
+
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="terminalq2c" name="pwd" value="terminalq2c">
+                <label for="terminalq2c">“print working directory”</label>
+            </div>
+
+            <div>
+                <input type="radio" id="terminalq2d" name="pwd" value="terminalq2d">
+                <label for="terminalq2d">“print work directions”</label>
+            </div>
+        </div>  
+
+        <div>
+            <h4 id="terminalq3">“cd” is short for “change directory”: </h4>
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="terminalq3a" name="change" value="terminalq3a">
+                <label for="terminalq3a">True</label>
+            </div>
+
+            <div>
+                <input type="radio" id="terminalq3b" name="change" value="terminalq3b">
+                <label for="terminalq3b">False</label>
+            </div>
         </div>
 
         <div>
-            <input type="radio" id="terminalq1c" name="navigate" value="terminalq1c">
-            <label for="terminalq1c">“pwd”, “cd”, and “rm”</label>
-        </div>
+            <h4 id="terminalq4">The file system is shaped like a tree where the root is a branch: </h4>
+            <div>
+                <input type="radio" id="terminalq4a" name="branch" value="terminalq4a">
+                <label for="terminalq4a">True</label>
+            </div>
 
-        <div>
-            <input type="radio" id="terminalq1d" name="navigate" value="terminalq1d">
-            <label for="terminalq1d">“pwd”, “cd”, and “ls”</label>
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="terminalq4b" name="branch" value="terminalq4b">
+                <label for="terminalq4b">False</label>
+            </div>
         </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
-
-  <div>
-    <form method="post">
-    <h4 id="terminalq2">What is “pwd” short for?</h4>
-        <div>
-            <input type="radio" id="terminalq2a" name="pwd" value="terminalq2a">
-            <label for="terminalq2a">“print working directions”</label>
-        </div>
-
-        <div>
-            <input type="radio" id="terminalq2b" name="pwd" value="terminalq2b">
-            <label for="terminalq2b">“print work directory”</label>
-        </div>
-
-        <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="terminalq2c" name="pwd" value="terminalq2c">
-            <label for="terminalq2c">“print working directory”</label>
-        </div>
-
-        <div>
-            <input type="radio" id="terminalq2d" name="pwd" value="terminalq2d">
-            <label for="terminalq2d">“print work directions”</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>  
-
-  <div>
-  <form method="post">
-    <h4 id="terminalq3">“cd” is short for “change directory”: </h4>
-        <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="terminalq3a" name="change" value="terminalq3a">
-            <label for="terminalq3a">True</label>
-        </div>
-
-        <div>
-            <input type="radio" id="terminalq3b" name="change" value="terminalq3b">
-            <label for="terminalq3b">False</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
-
-  <div>
-  <form method="post">
-    <h4 id="terminalq4">The file system is shaped like a tree where the root is a branch: </h4>
-        <div>
-            <input type="radio" id="terminalq4a" name="branch" value="terminalq4a">
-            <label for="terminalq4a">True</label>
-        </div>
-
-        <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="terminalq4b" name="branch" value="terminalq4b">
-            <label for="terminalq4b">False</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
-</div>
+    </div><!-- end flex container -->
+    <input class="submit" type="submit" value="Check answers!">
+</form>
 
 <?php
     include($path . "assets/inc/footer.php");
