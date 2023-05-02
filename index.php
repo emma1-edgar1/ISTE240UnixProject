@@ -9,7 +9,7 @@
         <div class="siteTitle">
             <h1>Unix Survival Guide</h1>
             <h2>Brought to you by</h2>
-            <img src="assets/images/pinaKoalaLogo.png" alt="Pina Koalas Logo">                                                         
+            <img src="assets/images/pinaKoalaLogo.png" alt="Pina Koalas Logo" id="teamlogo">                                                         
         </div> <!-- end .siteTitle -->
         
         <h2 id="readyToLearn">Ready to Learn Unix?</h2>
