@@ -4,6 +4,28 @@
     $previousPage = "index.php"; //index
     $nextPage = "files.php"; //files page
     include($path . "assets/inc/header.php");
+
+    // form sanitization method
+    function sanitize($str){
+        $str = trim($str); 
+        $str = strip_tags($str);
+        $str = htmlentities($str);
+        return $str;
+    }
+
+    if(!empty($_POST['multics']) && !empty($_POST['dev']) && !empty($_POST['team']) && !empty($_POST['hierarchy']) && !empty($_POST['flexible'])){
+        $multics = sanitize($_POST['multics']);
+        $dev = sanitize($_POST['dev']);
+        $team = sanitize($_POST['team']);
+        $hierarchy = sanitize($_POST['hierarchy']);
+        $felixible = sanitize($_POST['flexible']);
+
+        $multics = filter_var($multics, FILTER_SANITIZE_STRING);
+        $dev = filter_var($dev, FILTER_SANITIZE_STRING);
+        $team = filter_var($team, FILTER_SANITIZE_STRING);
+        $hierarchy = filter_var($hierarchy, FILTER_SANITIZE_STRING);
+        $felixible = filter_var($felixible, FILTER_SANITIZE_STRING);
+    }
 ?>
 <div>
     <h1>History</h1>
