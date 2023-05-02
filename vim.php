@@ -23,113 +23,100 @@
 <h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
-<div class="flex-container">
-
-  <div>
-    <form method="post">
-    <h4 id="vimq1">What are the three important VIM modes?</h4>
+<form method="post" class="quizForm">
+    <div class="flex-container">
         <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="vimq1a" name="three" value="vimq1a">
-            <label for="vimq1a">normal, insert, and command</label>
-        </div>
+            <h4 id="vimq1">What are the three important VIM modes?</h4>
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="vimq1a" name="three" value="vimq1a">
+                <label for="vimq1a">normal, insert, and command</label>
+            </div>
 
-        <div>
-            <input type="radio" id="vimq1b" name="three" value="vimq1b">
-            <label for="vimq1b">normal, insertion, and command</label>
-        </div>
+            <div>
+                <input type="radio" id="vimq1b" name="three" value="vimq1b">
+                <label for="vimq1b">normal, insertion, and command</label>
+            </div>
 
-        <div>
-            <input type="radio" id="vimq1c" name="three" value="vimq1c">
-            <label for="vimq1c">normal, insert, and comment</label>
-        </div>
+            <div>
+                <input type="radio" id="vimq1c" name="three" value="vimq1c">
+                <label for="vimq1c">normal, insert, and comment</label>
+            </div>
 
-        <div>
-            <input type="radio" id="vimq1d" name="three" value="vimq1d">
-            <label for="vimq1d">new, insert, and command</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
-
-  <div>
-    <form method="post">
-    <h4 id="vimq2">Normal is the default mode and the mode you start in:</h4>
-        <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="vimq2a" name="default" value="vimq2a">
-            <label for="vimq2a">True</label>
-        </div>
-
-        <div>            
-            <input type="radio" id="vimq2b" name="default" value="vimq2b">
-            <label for="vimq2b">False</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
-
-  <div>
-    <form method="post">
-    <h4 id="vimq3">What key do you press to leave insert mode?</h4>
-        <div>
-            <input type="radio" id="vimq3a" name="leave" value="vimq3a">
-            <label for="vimq3a">Press the CTRL key</label>
+            <div>
+                <input type="radio" id="vimq1d" name="three" value="vimq1d">
+                <label for="vimq1d">new, insert, and command</label>
+            </div>
         </div>
 
         <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="vimq3b" name="leave" value="vimq3b">
-            <label for="vimq3b">Press the ESC key</label>
-        </div>
+            <h4 id="vimq2">Normal is the default mode and the mode you start in:</h4>
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="vimq2a" name="default" value="vimq2a">
+                <label for="vimq2a">True</label>
+            </div>
 
-        <div>            
-            <input type="radio" id="vimq3c" name="leave" value="vimq3c">
-            <label for="vimq3c">Press the ENTER key</label>
-        </div>
-
-        <div>
-            <input type="radio" id="vimq3d" name="leave" value="vimq3d">
-            <label for="vimq3d">Press the TAB key</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>  
-
-  <div>
-  <form method="post">
-    <h4 id="vimq4">To enter insert mode, you press press n:</h4>
-        <div>
-            <input type="radio" id="vimq4a" name="enter" value="vimq4a">
-            <label for="vimq4a">True</label>
+            <div>            
+                <input type="radio" id="vimq2b" name="default" value="vimq2b">
+                <label for="vimq2b">False</label>
+            </div>
         </div>
 
         <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="vimq4b" name="enter" value="vimq4b">
-            <label for="vimq4b">False</label>
-        </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
+            <h4 id="vimq3">What key do you press to leave insert mode?</h4>
+            <div>
+                <input type="radio" id="vimq3a" name="leave" value="vimq3a">
+                <label for="vimq3a">Press the CTRL key</label>
+            </div>
 
-  <div>
-  <form method="post">
-    <h4 id="vimq5">:# - moves your cursor to line number #:</h4>
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="vimq3b" name="leave" value="vimq3b">
+                <label for="vimq3b">Press the ESC key</label>
+            </div>
+
+            <div>            
+                <input type="radio" id="vimq3c" name="leave" value="vimq3c">
+                <label for="vimq3c">Press the ENTER key</label>
+            </div>
+
+            <div>
+                <input type="radio" id="vimq3d" name="leave" value="vimq3d">
+                <label for="vimq3d">Press the TAB key</label>
+            </div>
+        </div>  
+
         <div>
-            <!-- Correct Answer -->
-            <input type="radio" id="vimq5a" name="line" value="vimq5a">
-            <label for="vimq5a">True</label>
+            <h4 id="vimq4">To enter insert mode, you press press n:</h4>
+            <div>
+                <input type="radio" id="vimq4a" name="enter" value="vimq4a">
+                <label for="vimq4a">True</label>
+            </div>
+
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="vimq4b" name="enter" value="vimq4b">
+                <label for="vimq4b">False</label>
+            </div>
         </div>
 
         <div>
-            <input type="radio" id="vimq5b" name="line" value="vimq5b">
-            <label for="vimq5b">False</label>
+            <h4 id="vimq5">:# - moves your cursor to line number #:</h4>
+            <div>
+                <!-- Correct Answer -->
+                <input type="radio" id="vimq5a" name="line" value="vimq5a">
+                <label for="vimq5a">True</label>
+            </div>
+
+            <div>
+                <input type="radio" id="vimq5b" name="line" value="vimq5b">
+                <label for="vimq5b">False</label>
+            </div>
         </div>
-        <input class="submit" type="submit" value="Check answer!">
-    </form>
-  </div>
-</div>
+    </div><!-- end flex container -->
+    <input class="submit" type="submit" value="Check answers!">
+</form>
 
 <?php
     include($path . "assets/inc/footer.php");
