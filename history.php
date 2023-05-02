@@ -18,13 +18,13 @@
         $dev = sanitize($_POST['dev']);
         $team = sanitize($_POST['team']);
         $hierarchy = sanitize($_POST['hierarchy']);
-        $felixible = sanitize($_POST['flexible']);
+        $flexible = sanitize($_POST['flexible']);
 
         $multics = filter_var($multics, FILTER_SANITIZE_STRING);
         $dev = filter_var($dev, FILTER_SANITIZE_STRING);
         $team = filter_var($team, FILTER_SANITIZE_STRING);
         $hierarchy = filter_var($hierarchy, FILTER_SANITIZE_STRING);
-        $felixible = filter_var($felixible, FILTER_SANITIZE_STRING);
+        $flexible = filter_var($flexible, FILTER_SANITIZE_STRING);
     }
 ?>
 <div>
