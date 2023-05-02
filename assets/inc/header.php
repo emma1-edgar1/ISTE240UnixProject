@@ -36,34 +36,38 @@
             <li><a href="faq.php">FAQ/Help</a></li>
         </uL>  <!--all menu items enclosed in here-->
     </div> <!--dropdown div end-->
+
     <div class="mobile-container">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+        <a href="index.php" class="active">Home</a>
+        <div id="myPages">
+            <a href="history.php">History</a>
+            <a href="files.php">Files</a>
+            <a href="directories.php">Folders</a>
+            <a href="terminal.php">Terminal</a>
+            <a href="vim.php">VIM</a>
+            <a href="permissions.php">File Permissions</a>
+            <a href="vocab.php">Vocab Index</a>
+            <a href="faq.php">FAQ</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="menuFunc()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+        <!-- End of hamburger menu -->
+    </div>
 
-<!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="index.php" class="active">Home</a>
-  <div id="myPages">
-    <a href="history.php">History</a>
-    <a href="files.php">Files</a>
-    <a href="directories.php">Folders</a>
-  </div>
-  <a href="javascript:void(0);" class="icon" onclick="menuFunc()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-<!-- End smartphone / tablet look -->
-</div>
-
-<script>
-function menuFunc() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+        <script>
+        function menuFunc() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        }
+        </script>
 
     <div class="content-block">
         <div class="textBlock">
