@@ -22,7 +22,7 @@
 <h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
-<form method="post" class="quizForm">
+<form method="post" class="quizForm" onsubmit="return validateFiles();">
     <div class="flex-container">
         <div>
             <h4 id="filesq1">The cp command makes a copy of your file:</h4>

@@ -36,5 +36,10 @@ answerKey.set("vimq4", "vimq4b");
 answerKey.set("vimq5", "vimq5a");
 
 function check(questionId, answerId) {
-    return Object.is(answerKey.get(questionId), answerId);
+    var correct = Object.is(answerKey.get(questionId), answerId);
+    return correct;
+}
+
+function revealAnswers() {
+
 }

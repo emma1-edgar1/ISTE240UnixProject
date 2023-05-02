@@ -32,7 +32,7 @@
 <h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
-<form method="post" class="quizForm">
+<form method="post" class="quizForm" onsubmit="return validateFolders();">
     <div class="flex-container">
         <div>
             <h4 id="directq1">Directories and Folders are the same thing:</h4>
