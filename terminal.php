@@ -7,12 +7,15 @@
 ?>
 <div>
     <h1>Terminal</h1>
+    <?php
+        include($path . "assets/inc/quizJump.php")
+    ?>
     <p>Like many other operating systems, Unix organizes its files and folders using a system called a directory tree which sometimes is also referred to as a directory structure, or directory hierarchy. At the top of the structure there is a folder called the root which is written as a forward slash and is the highest level of the structure. All other folders (also called directories) in this structure are located within that root folder. These folders can also contain folders, which explains why the system is sometimes referred to as a directory tree. Understand that this file system is shaped like an upside-down tree where the root is the tree trunk and all other folders are the branches that extend from it.</p>
     <p>The Root folder contains important folders such as the bin folder which contains binaries, or Unix commands, the mnt folder which shows any currently mounted drives like an external hard drive, and the Users folder. These folders may also house other folders such as the User's directory containing a folder name “Robert”, a Desktop folder, and a Downloads folder. This is how folders and files within a directory structure are organized.</p>
     <p>In order to navigate throughout your computer, you will need to know several commands such as “pwd”, “cd”, and “ls”. To understand what these commands mean; “pwd” is short for “print working directory”, “cd” is short for “change directory”, and “ls” is short for “list”. This is essentially the equivalent of clicking on a folder that is located on your Desktop, and opening it to see its contents. For example, if you have the folder “MyFolder” on your Desktop, double-clicking on it to open it is the same exact thing as typing “cd ~/Desktop/MyFolder” in the Terminal followed by typing ls to list what is contained within the folder. It is also important to note that “folder” and “directory” are able to be used interchangeably as they mean the same thing.</p>
 </div>
 
-<h1>Quiz Yourself!</h1>
+<h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
 <div class="flex-container">
