@@ -4,6 +4,28 @@
     $previousPage = "terminal.php"; 
     $nextPage = "permissions.php"; 
     include($path . "assets/inc/header.php");
+
+    // form sanitization method
+    function sanitize($str){
+        $str = trim($str); 
+        $str = strip_tags($str);
+        $str = htmlentities($str);
+        return $str;
+    }
+
+    if(!empty($_POST['three']) && !empty($_POST['default']) && !empty($_POST['leave']) && !empty($_POST['enter']) && !empty($_POST['line'])){
+        $three = sanitize($_POST['three']);
+        $default = sanitize($_POST['default']);
+        $leave = sanitize($_POST['leave']);
+        $enter = sanitize($_POST['enter']);
+        $line = sanitize($_POST['line']);
+
+        $three = filter_var($three, FILTER_SANITIZE_STRING);
+        $default = filter_var($default, FILTER_SANITIZE_STRING);
+        $leave = filter_var($leave, FILTER_SANITIZE_STRING);
+        $enter = filter_var($enter, FILTER_SANITIZE_STRING);
+        $line = filter_var($line, FILTER_SANITIZE_STRING);
+    }
 ?>
 <div>
     <h1>VIM</h1>
