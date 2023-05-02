@@ -29,7 +29,7 @@
     </ul>    
 </div>
 
-<h1 id="quizAnchor">Quiz Yourself!>Quiz Yourself!</h1>
+<h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
 <div class="flex-container">
