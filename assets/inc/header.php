@@ -52,7 +52,7 @@
                 <a href="faq.php">FAQ</a>
             </div>
         <a href="javascript:void(0);" class="icon" onclick="menuFunc()">
-            <i class="fa fa-bars"></i>
+            <!-- <i class="fa fa-bars"></i> -->
         </a>
         </div>
         <!-- End of hamburger menu -->
@@ -60,11 +60,11 @@
 
         <script>
         function menuFunc() {
-        var x = document.getElementById("myPages");
-        if (x.style.display === "block") {
-            x.style.display = "none";
+        var divWithLinks = document.getElementById("myPages");
+        if (divWithLinks.style.display === "block") {
+            divWithLinks.style.display = "none";
         } else {
-            x.style.display = "block";
+            divWithLinks.style.display = "block";
         }
         }
         </script>

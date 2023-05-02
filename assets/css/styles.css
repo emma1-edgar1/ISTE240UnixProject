@@ -385,7 +385,7 @@ form{
     .menu{
         display: none;
     }
-    
+
     .topnav {
         display: block;
         overflow: hidden;
@@ -397,6 +397,7 @@ form{
         display: none;
       }
       
+      /* links */
       .topnav a {
         color: white;
         padding: 14px 16px;
@@ -405,9 +406,11 @@ form{
         display: block;
       }
       
+      /* specifically the hamburger menu link */
       .topnav a.icon {
-        background: black;
         display: block;
+        background-image: url('../images/hamburger_white.png');
+        max-height: 20px;
         position: absolute;
         right: 0;
         top: 0;
