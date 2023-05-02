@@ -4,6 +4,28 @@
     $previousPage = "directories.php"; 
     $nextPage = "vim.php"; 
     include($path . "assets/inc/header.php");
+
+    // form sanitization method
+    function sanitize($str){
+        $str = trim($str); 
+        $str = strip_tags($str);
+        $str = htmlentities($str);
+        return $str;
+    }
+
+    if(!empty($_POST['root']) && !empty($_POST['navigate']) && !empty($_POST['pwd']) && !empty($_POST['change']) && !empty($_POST['branch'])){
+        $root = sanitize($_POST['root']);
+        $navigate = sanitize($_POST['navigate']);
+        $pwd = sanitize($_POST['pwd']);
+        $change = sanitize($_POST['change']);
+        $branch = sanitize($_POST['branch']);
+
+        $root = filter_var($root, FILTER_SANITIZE_STRING);
+        $navigate = filter_var($navigate, FILTER_SANITIZE_STRING);
+        $pwd = filter_var($pwd, FILTER_SANITIZE_STRING);
+        $change = filter_var($change, FILTER_SANITIZE_STRING);
+        $branch = filter_var($branch, FILTER_SANITIZE_STRING);
+    }
 ?>
 <div>
     <h1>Terminal</h1>
