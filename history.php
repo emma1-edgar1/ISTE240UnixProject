@@ -44,7 +44,7 @@
 <h1 id="quizAnchor">Quiz Yourself!</h1>
 <h2 class="quizheaderspace">Want to test your knowledge? Take the quiz!</h2>
 
-<form method="post" class="quizForm">
+<form class="quizForm" action = "<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" onsubmit="return validateHistory();">
     <div class="flex-container">
         <div>
             <h4 id="historyq1">What does MULTICS stand for?</h4>
