@@ -239,7 +239,7 @@ function validatePermissions(){
 	}
 
 	// question 2
-	if(document.getElementById("vimpermissionsq2aq2a").checked == false &&
+	if(document.getElementById("permissionsq2a").checked == false &&
 		document.getElementById("permissionsq2b").checked == false){
 		errormsg = "Please do not leave any questions blank\nMake a guess if you need to!";
 	}
