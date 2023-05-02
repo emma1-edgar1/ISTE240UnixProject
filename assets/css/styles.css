@@ -124,6 +124,9 @@ h4 {
     opacity: 100%;
 }
 
+.topnav {
+    display: none;}
+
 
 .content-block {
     display:flex;
