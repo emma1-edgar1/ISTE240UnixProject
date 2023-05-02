@@ -35,8 +35,6 @@ h4 {
     margin-top: 0px;
 }
 
-/* homepage styles */ 
-
 #homepage-block{
     display:flex;
     flex-direction:column;
@@ -64,43 +62,13 @@ h4 {
     max-width: 200px;
     font-size: 1em;
     margin: auto;
-    font-family: 'Montserrat', sans-serif;
+    
 }
 
 #homepage-block button:hover{
     background-color: #064885;
     color: white;
 }
-
-.siteTitle {
-    width: 100%;
-    margin: auto;
-    padding-bottom: 20px;
-}
-
-.siteTitle img {
-    width: 50%;
-    max-width: 300px;
-}
- 
-.siteTitle h1 {
-    margin: 0;
-}
-
-.siteTitle h2 {
-    margin: 0;
-    padding: 10px 0 20px 0;
-}
-
-#readyToLearn {
-    font-size: 36px;
-}
-
-#homepage-h2 h2 {
-    font-weight: 400;
-}
-
-/* end homepage styles */ 
 
 /* Button works, but there is an issue where you can also click next to button and it still works. */
 .hoverbutton {
@@ -343,20 +311,4 @@ form{
 /* when link is clicked, darken more */
 .next-previous-links a:focus {
     background-color: #C66918;
-}
-
-/* jump to quiz button styles */
-
-.jumpToQuizButton a {
-    text-decoration: none;
-    background-color: #5BA2E4;
-    color: #021A31;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 10px;
-}
-
-.jumpToQuizButton a:hover {
-    background-color: #064885;
-    color: white;
 }
